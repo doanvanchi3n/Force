@@ -1,0 +1,32 @@
+name: Công việc tìm hiểu Client
+description: Ghi mục tiêu, đầu ra và tiêu chí hoàn thành của một công việc.
+title: "[TVxx] Tìm hiểu Client"
+body:
+  - type: textarea
+    id: objective
+    attributes:
+      label: Mục tiêu
+      description: Bạn sẽ tìm hiểu điều gì và vì sao?
+    validations:
+      required: true
+  - type: input
+    id: output
+    attributes:
+      label: Tài liệu đầu ra
+      placeholder: 04-Members/TV01.md
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Nguồn thông tin và cách kiểm chứng
+      description: Ghi nguồn đã có hoặc kế hoạch thu thập; phân biệt giả định.
+  - type: checkboxes
+    id: completion
+    attributes:
+      label: Tiêu chí hoàn thành
+      options:
+        - label: Có bối cảnh, vấn đề, ảnh hưởng và nhu cầu.
+        - label: Có nguồn; đánh dấu rõ giả định và câu hỏi còn mở.
+        - label: Đã đọc chéo và xử lý góp ý.
+        - label: Tài liệu được merge vào main.

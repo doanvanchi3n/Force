@@ -1,0 +1,21 @@
+# Obsidian: keep shared settings, ignore each person's layout and cache.
+.obsidian/workspace.json
+.obsidian/workspaces.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.obsidian/plugins/
+.trash/
+
+# Machine-specific files and credentials.
+.DS_Store
+Thumbs.db
+*~
+*.swp
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+node_modules/
+__pycache__/
