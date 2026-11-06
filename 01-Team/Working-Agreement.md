@@ -9,6 +9,9 @@
 
 ## Một lượt cập nhật bằng Git
 
+Mỗi thành viên cần quyền ghi vào repo và tự xác thực GitHub trên máy mình.
+Nếu dùng GitHub CLI, chạy `gh auth login`, sau đó `gh auth setup-git` trước lần push đầu tiên.
+
 Ví dụ dưới đây dành cho TV01; các thành viên khác thay mã và đường dẫn tương ứng.
 Chạy lệnh trong thư mục repository. Trước khi đổi nhánh, kiểm tra `git status` và commit những thay đổi đang làm nếu có.
 
@@ -47,7 +50,7 @@ Nếu Git báo xung đột, cùng người sửa file đó thống nhất nội 
 | Review | Đã có tài liệu/PR, chờ người khác đọc chéo |
 | Done | Đã xử lý góp ý, tài liệu được merge vào `main` |
 
-Mỗi thẻ có một người chịu trách nhiệm chính, liên kết tài liệu và tiêu chí hoàn thành.
+Nhóm cần gán một người chịu trách nhiệm chính cho mỗi thẻ; thẻ đã có liên kết tài liệu và tiêu chí hoàn thành.
 Việc kéo thẻ không tự cập nhật nội dung trong vault.
 
 ## Cách ghi thông tin

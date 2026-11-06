@@ -10,6 +10,8 @@ Market gap chưa nằm trong phạm vi homework theo thông tin đã nhận từ
 - [Quy trình đóng góp và đọc chéo](01-Team/Working-Agreement.md)
 - [Thiết lập repository và Project](01-Team/GitHub-Setup.md)
 - [Board và các công việc ban đầu](06-Planning/Board.md)
+- [Mở GitHub Board — Force Client Discovery](https://github.com/users/doanvanchi3n/projects/4)
+- [Mở repository Force](https://github.com/doanvanchi3n/Force)
 
 ## Nội dung chung
 

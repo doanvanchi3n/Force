@@ -41,8 +41,9 @@ Chỉnh sửa trong Obsidian được lưu trên máy; cần commit và push đ�
 ## GitHub
 
 Repository: [doanvanchi3n/Force](https://github.com/doanvanchi3n/Force), chế độ **Public** do chủ repo đã chọn.
-Tên Project dự kiến: **Force — Client Discovery**.
+Project: [Force — Client Discovery](https://github.com/users/doanvanchi3n/projects/4), chế độ **Private**.
 Board: **Todo → Doing → Review → Done**.
 
-Repository đã được chủ repo tạo. Trạng thái đưa tài liệu lên GitHub và tạo Project
-được theo dõi tại [GitHub Setup](01-Team/GitHub-Setup.md).
+Vault đã có trên nhánh `main`. Board đã được tạo và liên kết với repository.
+Nhóm điền tên tại [Members](01-Team/Members.md), sau đó chủ repo cấp quyền và gán công việc.
+Chi tiết quyền truy cập tại [GitHub Setup](01-Team/GitHub-Setup.md).
