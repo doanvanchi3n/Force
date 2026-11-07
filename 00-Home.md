@@ -23,18 +23,18 @@ Market gap chưa nằm trong phạm vi homework theo thông tin đã nhận từ
 
 ## Ghi chép cá nhân
 
-| Thành viên | Ghi chép | Cặp đọc chéo đề xuất |
+| Thành viên | Ghi chép | Người đọc chéo bài này (đề xuất) |
 | --- | --- | --- |
-| TV01 | [TV01](04-Members/TV01.md) | TV02 |
-| TV02 | [TV02](04-Members/TV02.md) | TV01 |
-| TV03 | [TV03](04-Members/TV03.md) | TV04 |
-| TV04 | [TV04](04-Members/TV04.md) | TV03 |
-| TV05 | [TV05](04-Members/TV05.md) | TV06 |
-| TV06 | [TV06](04-Members/TV06.md) | TV05 |
-| TV07 | [TV07](04-Members/TV07.md) | TV08 |
-| TV08 | [TV08](04-Members/TV08.md) | TV07 |
-| TV09 | [TV09](04-Members/TV09.md) | TV10 |
-| TV10 | [TV10](04-Members/TV10.md) | TV09 |
+| TV01 — Doãn Văn Chiến | [TV01](04-Members/TV01.md) | TV02 — Huỳnh Văn Lợi |
+| TV02 — Huỳnh Văn Lợi | [TV02](04-Members/TV02.md) | TV01 — Doãn Văn Chiến |
+| TV03 — Huỳnh Thanh Thuận | [TV03](04-Members/TV03.md) | TV04 — Nguyễn Ánh Kim Ngân |
+| TV04 — Nguyễn Ánh Kim Ngân | [TV04](04-Members/TV04.md) | TV03 — Huỳnh Thanh Thuận |
+| TV05 — Nguyễn Nhã Quỳnh Nhi | [TV05](04-Members/TV05.md) | TV06 — Lê Quang Anh |
+| TV06 — Lê Quang Anh | [TV06](04-Members/TV06.md) | TV05 — Nguyễn Nhã Quỳnh Nhi |
+| TV07 — Hoàng Phan Hà | [TV07](04-Members/TV07.md) | TV08 — Võ Đình Minh Đức |
+| TV08 — Võ Đình Minh Đức | [TV08](04-Members/TV08.md) | TV07 — Hoàng Phan Hà |
+| TV09 — Phạm Nguyễn Phú Trọng | [TV09](04-Members/TV09.md) | TV10 — Nguyễn Đức Phúc |
+| TV10 — Nguyễn Đức Phúc | [TV10](04-Members/TV10.md) | TV09 — Phạm Nguyễn Phú Trọng |
 
 ## Mẫu dùng lại
 

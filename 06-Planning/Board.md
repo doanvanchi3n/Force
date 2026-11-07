@@ -13,20 +13,22 @@ Status là trường dùng chia cột. Mỗi Issue nên có Assignee, tài liệ
 
 ## Công việc khởi đầu
 
-| Mã | Tiêu đề Issue | Người dự kiến | Tài liệu đầu ra | Trạng thái dự kiến |
+| Mã | Tiêu đề Issue | Người phụ trách dự kiến | Tài liệu đầu ra | Trạng thái dự kiến |
 | --- | --- | --- | --- | --- |
-| [CLIENT-01](https://github.com/doanvanchi3n/Force/issues/1) | [TV01] Tìm hiểu Client | TV01 | [TV01.md](../04-Members/TV01.md) | Todo |
-| [CLIENT-02](https://github.com/doanvanchi3n/Force/issues/2) | [TV02] Tìm hiểu Client | TV02 | [TV02.md](../04-Members/TV02.md) | Todo |
-| [CLIENT-03](https://github.com/doanvanchi3n/Force/issues/3) | [TV03] Tìm hiểu Client | TV03 | [TV03.md](../04-Members/TV03.md) | Todo |
-| [CLIENT-04](https://github.com/doanvanchi3n/Force/issues/4) | [TV04] Tìm hiểu Client | TV04 | [TV04.md](../04-Members/TV04.md) | Todo |
-| [CLIENT-05](https://github.com/doanvanchi3n/Force/issues/5) | [TV05] Tìm hiểu Client | TV05 | [TV05.md](../04-Members/TV05.md) | Todo |
-| [CLIENT-06](https://github.com/doanvanchi3n/Force/issues/6) | [TV06] Tìm hiểu Client | TV06 | [TV06.md](../04-Members/TV06.md) | Todo |
-| [CLIENT-07](https://github.com/doanvanchi3n/Force/issues/7) | [TV07] Tìm hiểu Client | TV07 | [TV07.md](../04-Members/TV07.md) | Todo |
-| [CLIENT-08](https://github.com/doanvanchi3n/Force/issues/8) | [TV08] Tìm hiểu Client | TV08 | [TV08.md](../04-Members/TV08.md) | Todo |
-| [CLIENT-09](https://github.com/doanvanchi3n/Force/issues/9) | [TV09] Tìm hiểu Client | TV09 | [TV09.md](../04-Members/TV09.md) | Todo |
-| [CLIENT-10](https://github.com/doanvanchi3n/Force/issues/10) | [TV10] Tìm hiểu Client | TV10 | [TV10.md](../04-Members/TV10.md) | Todo |
+| [CLIENT-01](https://github.com/doanvanchi3n/Force/issues/1) | [TV01] Doãn Văn Chiến — Tìm hiểu Client | [@doanvanchi3n](https://github.com/doanvanchi3n) | [TV01.md](../04-Members/TV01.md) | Todo |
+| [CLIENT-02](https://github.com/doanvanchi3n/Force/issues/2) | [TV02] Huỳnh Văn Lợi — Tìm hiểu Client | [@VanLoiK23](https://github.com/VanLoiK23) | [TV02.md](../04-Members/TV02.md) | Todo |
+| [CLIENT-03](https://github.com/doanvanchi3n/Force/issues/3) | [TV03] Huỳnh Thanh Thuận — Tìm hiểu Client | [@phonEIT](https://github.com/phonEIT) | [TV03.md](../04-Members/TV03.md) | Todo |
+| [CLIENT-04](https://github.com/doanvanchi3n/Force/issues/4) | [TV04] Nguyễn Ánh Kim Ngân — Tìm hiểu Client | [@kimngan1805](https://github.com/kimngan1805) | [TV04.md](../04-Members/TV04.md) | Todo |
+| [CLIENT-05](https://github.com/doanvanchi3n/Force/issues/5) | [TV05] Nguyễn Nhã Quỳnh Nhi — Tìm hiểu Client | [@quinnhingn](https://github.com/quinnhingn) | [TV05.md](../04-Members/TV05.md) | Todo |
+| [CLIENT-06](https://github.com/doanvanchi3n/Force/issues/6) | [TV06] Lê Quang Anh — Tìm hiểu Client | [@qa5011](https://github.com/qa5011) | [TV06.md](../04-Members/TV06.md) | Todo |
+| [CLIENT-07](https://github.com/doanvanchi3n/Force/issues/7) | [TV07] Hoàng Phan Hà — Tìm hiểu Client | [@HoangPhanHa23ITEB028](https://github.com/HoangPhanHa23ITEB028) | [TV07.md](../04-Members/TV07.md) | Todo |
+| [CLIENT-08](https://github.com/doanvanchi3n/Force/issues/8) | [TV08] Võ Đình Minh Đức — Tìm hiểu Client | [@imduw](https://github.com/imduw) | [TV08.md](../04-Members/TV08.md) | Todo |
+| [CLIENT-09](https://github.com/doanvanchi3n/Force/issues/9) | [TV09] Phạm Nguyễn Phú Trọng — Tìm hiểu Client | [@phutrong0912](https://github.com/phutrong0912) | [TV09.md](../04-Members/TV09.md) | Todo |
+| [CLIENT-10](https://github.com/doanvanchi3n/Force/issues/10) | [TV10] Nguyễn Đức Phúc — Tìm hiểu Client | [@DUCPHUC1612](https://github.com/DUCPHUC1612) | [TV10.md](../04-Members/TV10.md) | Todo |
 | [CLIENT-11](https://github.com/doanvanchi3n/Force/issues/11) | Tổng hợp Client Brief | Chưa phân công | [Client Brief](../02-Client/Client-Brief.md) | Todo |
 | [CLIENT-12](https://github.com/doanvanchi3n/Force/issues/12) | Thống nhất phát biểu vấn đề và câu hỏi còn mở | Chưa phân công | [Problem Statement](../03-Research/Problem-Statement.md) | Todo |
+
+Phân công đọc chéo và trạng thái lời mời/Assignee thực tế: [Members](../01-Team/Members.md).
 
 ## Tiêu chí hoàn thành một ghi chép cá nhân
 

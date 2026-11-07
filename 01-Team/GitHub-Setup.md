@@ -10,11 +10,14 @@
 | Project trên GitHub | [Force — Client Discovery](https://github.com/users/doanvanchi3n/projects/4), Private, view Board nhóm theo Status |
 | Các cột | Todo → Doing → Review → Done |
 | Công việc ban đầu | Đã tạo [12 Issue](https://github.com/doanvanchi3n/Force/issues) |
-| Quyền của 10 thành viên | Chưa cấu hình; cần GitHub username |
+| Thành viên đã xác minh | Đủ 10 tài khoản TV01–TV10 |
+| Quyền repository | TV01 là chủ repo; chờ chấp nhận lời mời: TV02, TV03, TV05, TV06, TV08, TV09 |
+| Quyền Project | Đã cấp Write cho TV02–TV10; TV01 là chủ Project |
+| Assignee | Đã gán: TV01, TV04, TV07, TV10. Các Issue còn lại đã có tên người phụ trách; gán Assignee sau khi nhận lời mời. |
 
 ## Repository
 
-Các bước thiết lập ban đầu đã thực hiện; phần còn lại là cấp quyền cho thành viên.
+Repository đã được thiết lập và lời mời đã gửi theo [Members](Members.md). Những người còn chờ cần chấp nhận lời mời bằng đúng tài khoản GitHub của mình.
 
 1. Chủ repo đã tạo repository `doanvanchi3n/Force`, chọn **Public**.
 2. Kết nối repository trên máy với `https://github.com/doanvanchi3n/Force.git`.
@@ -23,7 +26,7 @@ Các bước thiết lập ban đầu đã thực hiện; phần còn lại là 
 
 ## Project và Board
 
-Project đã được tạo và cấu hình. Giữ hướng dẫn bên dưới để nhóm quản lý và bổ sung thành viên.
+Project đã được tạo, cấu hình và cấp quyền Write cho TV02–TV10. Giữ hướng dẫn bên dưới để nhóm quản lý và bổ sung thành viên.
 
 1. Trong tài khoản `doanvanchi3n`, tạo Project `Force — Client Discovery`.
 2. Chọn layout **Board**, đặt tên view `Công việc nhóm`.
@@ -37,8 +40,8 @@ Project đã được tạo và cấu hình. Giữ hướng dẫn bên dưới �
 
 ## Việc thành viên cần thực hiện
 
-- Điền GitHub username vào [Members](Members.md).
-- Chủ repo cấp quyền ghi vào repository; chủ Project cấp quyền Write vào Project.
+- Thành viên còn chờ đăng nhập đúng tài khoản và nhận [lời mời repository](https://github.com/doanvanchi3n/Force/invitations).
+- Sau khi nhận lời mời, chủ repo gán Assignee ở Issue cùng mã TV. Xem trạng thái chi tiết tại [Members](Members.md).
 - Một thành viên đã được cấp quyền thử clone repo, mở vault và cập nhật một thẻ.
 - Mỗi người tự xác thực GitHub trên máy mình khi cần push hoặc tạo PR.
 

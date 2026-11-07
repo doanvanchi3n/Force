@@ -45,5 +45,6 @@ Project: [Force — Client Discovery](https://github.com/users/doanvanchi3n/proj
 Board: **Todo → Doing → Review → Done**.
 
 Vault đã có trên nhánh `main`. Board đã được tạo và liên kết với repository.
-Nhóm điền tên tại [Members](01-Team/Members.md), sau đó chủ repo cấp quyền và gán công việc.
+Đã cập nhật đầy đủ TV01–TV10 và cấp quyền Write trên Project cho 9 thành viên ngoài chủ repo.
+Xem [Members](01-Team/Members.md) để biết Issue, người đọc chéo và trạng thái nhận lời mời/Assignee.
 Chi tiết quyền truy cập tại [GitHub Setup](01-Team/GitHub-Setup.md).
