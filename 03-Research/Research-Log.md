@@ -4,7 +4,13 @@ Ghi kết quả thực tế. Một bài tham khảo về phương pháp không t
 
 | Mã nguồn | Ngày | Người ghi | Loại nguồn / cách thu thập | Liên kết tài liệu | Phát hiện | Giới hạn |
 | --- | --- | --- | --- | --- | --- | --- |
-| Chưa có | | | | | | |
+| SRC-TV01-01 | 07/11/2026 | TV01 — Doãn Văn Chiến | Tài liệu công khai; nhập từ bản nghiên cứu TV01 | [VKU – Câu lạc bộ Kỹ năng VKU](https://vku.udn.vn/vi/cau-lac-bo-ky-nang-vku-vsc/) | Xác định client tiềm năng và loại hoạt động | Bài giới thiệu năm 2023; không xác nhận nhu cầu hiện tại |
+| SRC-TV01-02 | 07/11/2026 | TV01 — Doãn Văn Chiến | Tài liệu công khai; nhập từ bản nghiên cứu TV01 | [HaUI – Đăng ký workshop “Trở thành công dân toàn cầu”](https://sict.haui.edu.vn/vn/tin-tuc/dang-ky-tham-du-workshop-tro-thanh-cong-dan-toan-cau-hanh-trinh-tu-dai-hoc-toi-google/70780) | Ví dụ công khai về đăng ký workshop bằng Forms | Thuộc đơn vị khác; không chứng minh có bất cập |
+| SRC-TV01-03 | 07/11/2026 | TV01 — Doãn Văn Chiến | Tài liệu công khai; nhập từ bản nghiên cứu TV01 | [FPT University – Hướng dẫn hệ thống điểm trải nghiệm](https://it.fpt.edu.vn/cantho/huong-dan-su-dung-he-thong-quan-ly-diem-trai-nghiem-sinh-vien/) | Tham khảo nghiệp vụ đăng ký và check-in | Không chứng minh VSC cần hệ thống tương tự |
+| SRC-TV01-04 | 07/11/2026 | TV01 — Doãn Văn Chiến | Tài liệu công khai; nhập từ bản nghiên cứu TV01 | [Google – Xem và quản lý câu trả lời trong biểu mẫu](https://support.google.com/docs/answer/139706?hl=vi) | Kiểm tra khả năng của công cụ thay thế | Không mô tả cách CLB sử dụng thực tế |
+| SRC-TV01-05 | 07/11/2026 | TV01 — Doãn Văn Chiến | Tài liệu phương pháp công khai; nhập từ bản nghiên cứu TV01 | [The Scrum Guide](https://scrumguides.org/scrum-guide.html) | Cơ sở về Product Owner, Sprint và Increment | Không phải bằng chứng nhu cầu client |
+
+Các mục SRC-TV01-01–SRC-TV01-05 được nhập từ [bài nghiên cứu TV01](../04-Members/TV01.md). Ngày tra cứu và các nhận định được giữ theo bản tài liệu cung cấp; chưa kiểm tra lại các nguồn khi nhập vào vault. Chưa có phỏng vấn hoặc xác nhận nhu cầu từ client.
 
 Mã nguồn đề xuất: `SRC-TV01-01`, `SRC-TV02-01`... để các thành viên tránh trùng mã.
 
