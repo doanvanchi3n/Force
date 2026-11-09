@@ -1,17 +1,19 @@
 # Trang chủ nhóm
 
-Mục tiêu hiện tại: hiểu Client, người dùng, nhu cầu và vấn đề có bằng chứng.
-Market gap chưa nằm trong phạm vi homework theo thông tin đã nhận từ giảng viên.
+Tuần 2: **Research & Problem Discovery**, cùng đề tài **Website hỗ trợ đăng ký và quản lý tham dự sự kiện cho câu lạc bộ sinh viên** của TV01.
+Client tiềm năng là VSC, còn cần xác minh hợp tác và nhu cầu.
 
 ## Bắt đầu
 
+- [Phân công và mốc tuần 2](06-Planning/Board%20-%20week%202.md)
+- [GitHub Board tuần 2](https://github.com/users/doanvanchi3n/projects/4/views/2)
+- [8 template và link Miro](80-Templates/Link%20template.md)
+- [Hướng dẫn Discovery](03-Research/Discovery-Guide.md)
 - [Hướng dẫn mở vault](README.md)
-- [Danh sách 10 thành viên](01-Team/Members.md)
+- [10 thành viên, Issue và quyền truy cập](01-Team/Members.md)
 - [Quy trình đóng góp và đọc chéo](01-Team/Working-Agreement.md)
 - [Thiết lập repository và Project](01-Team/GitHub-Setup.md)
-- [Board và các công việc ban đầu](06-Planning/Board.md)
-- [Mở GitHub Board — Force Client Discovery](https://github.com/users/doanvanchi3n/projects/4)
-- [Mở repository Force](https://github.com/doanvanchi3n/Force)
+- [Repository Force](https://github.com/doanvanchi3n/Force)
 
 ## Nội dung chung
 
@@ -21,22 +23,23 @@ Market gap chưa nằm trong phạm vi homework theo thông tin đã nhận từ
 - [Giả định và câu hỏi cần xác minh](03-Research/Assumptions.md)
 - [Biên bản họp](05-Meetings/README.md)
 
-## Ghi chép cá nhân
+## Bài làm theo tuần
 
-| Thành viên | Ghi chép | Người đọc chéo bài này (đề xuất) |
-| --- | --- | --- |
-| TV01 — Doãn Văn Chiến | [TV01](04-Members/TV01.md) | TV02 — Huỳnh Văn Lợi |
-| TV02 — Huỳnh Văn Lợi | [TV02](04-Members/TV02.md) | TV01 — Doãn Văn Chiến |
-| TV03 — Huỳnh Thanh Thuận | [TV03](04-Members/TV03.md) | TV04 — Nguyễn Ánh Kim Ngân |
-| TV04 — Nguyễn Ánh Kim Ngân | [TV04](04-Members/TV04.md) | TV03 — Huỳnh Thanh Thuận |
-| TV05 — Nguyễn Nhã Quỳnh Nhi | [TV05](04-Members/TV05.md) | TV06 — Lê Quang Anh |
-| TV06 — Lê Quang Anh | [TV06](04-Members/TV06.md) | TV05 — Nguyễn Nhã Quỳnh Nhi |
-| TV07 — Hoàng Phan Hà | [TV07](04-Members/TV07.md) | TV08 — Võ Đình Minh Đức |
-| TV08 — Võ Đình Minh Đức | [TV08](04-Members/TV08.md) | TV07 — Hoàng Phan Hà |
-| TV09 — Phạm Nguyễn Phú Trọng | [TV09](04-Members/TV09.md) | TV10 — Nguyễn Đức Phúc |
-| TV10 — Nguyễn Đức Phúc | [TV10](04-Members/TV10.md) | TV09 — Phạm Nguyễn Phú Trọng |
+| Thành viên | Tuần 1 | Tuần 2 | Đọc chéo |
+| --- | --- | --- | --- |
+| TV01 — Doãn Văn Chiến | [Bài tuần 1](04-results/Week-1/TV01.md) | [Tổng hợp, điều phối và kiểm tra bằng chứng](04-results/Week-2/TV01.md) | TV02 |
+| TV02 — Huỳnh Văn Lợi | [Bài tuần 1](04-results/Week-1/TV02.md) | [Competitor Research](04-results/Week-2/TV02.md) | TV01 |
+| TV03 — Huỳnh Thanh Thuận | [Bài tuần 1](04-results/Week-1/TV03.md) | [Stakeholder Mapping](04-results/Week-2/TV03.md) | TV04 |
+| TV04 — Nguyễn Ánh Kim Ngân | [Bài tuần 1](04-results/Week-1/TV04.md) | [User Research — ban tổ chức](04-results/Week-2/TV04.md) | TV03 |
+| TV05 — Nguyễn Nhã Quỳnh Nhi | [Bài tuần 1](04-results/Week-1/TV05.md) | [User Research — sinh viên tham gia](04-results/Week-2/TV05.md) | TV06 |
+| TV06 — Lê Quang Anh | [Bài tuần 1](04-results/Week-1/TV06.md) | [User Persona](04-results/Week-2/TV06.md) | TV05 |
+| TV07 — Hoàng Phan Hà | [Bài tuần 1](04-results/Week-1/TV07.md) | [Problem Statement](04-results/Week-2/TV07.md) | TV08 |
+| TV08 — Võ Đình Minh Đức | [Bài tuần 1](04-results/Week-1/TV08.md) | [Problem Canvas](04-results/Week-2/TV08.md) | TV07 |
+| TV09 — Phạm Nguyễn Phú Trọng | [Bài tuần 1](04-results/Week-1/TV09.md) | [Customer Journey Map](04-results/Week-2/TV09.md) | TV10 |
+| TV10 — Nguyễn Đức Phúc | [Bài tuần 1](04-results/Week-1/TV10.md) | [Assumption & Hypothesis Validation](04-results/Week-2/TV10.md) | TV09 |
 
-## Mẫu dùng lại
+## Lịch sử và mẫu dùng lại
 
-- [Tìm hiểu Client](80-Templates/Client-Research.md)
-- [Biên bản họp](80-Templates/Meeting.md)
+- [Board tuần 1](06-Planning/Board%20-%20week%201.md)
+- [Mẫu tìm hiểu Client](80-Templates/Client-Research.md)
+- [Mẫu biên bản họp](80-Templates/Meeting.md)

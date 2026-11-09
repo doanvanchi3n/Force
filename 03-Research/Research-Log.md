@@ -10,12 +10,15 @@ Ghi kết quả thực tế. Một bài tham khảo về phương pháp không t
 | SRC-TV01-04 | 07/11/2026 | TV01 — Doãn Văn Chiến | Tài liệu công khai; nhập từ bản nghiên cứu TV01 | [Google – Xem và quản lý câu trả lời trong biểu mẫu](https://support.google.com/docs/answer/139706?hl=vi) | Kiểm tra khả năng của công cụ thay thế | Không mô tả cách CLB sử dụng thực tế |
 | SRC-TV01-05 | 07/11/2026 | TV01 — Doãn Văn Chiến | Tài liệu phương pháp công khai; nhập từ bản nghiên cứu TV01 | [The Scrum Guide](https://scrumguides.org/scrum-guide.html) | Cơ sở về Product Owner, Sprint và Increment | Không phải bằng chứng nhu cầu client |
 
-Các mục SRC-TV01-01–SRC-TV01-05 được nhập từ [bài nghiên cứu TV01](../04-Members/TV01.md). Ngày tra cứu và các nhận định được giữ theo bản tài liệu cung cấp; chưa kiểm tra lại các nguồn khi nhập vào vault. Chưa có phỏng vấn hoặc xác nhận nhu cầu từ client.
+Các mục SRC-TV01-01–SRC-TV01-05 được nhập từ [bài nghiên cứu TV01](../04-results/Week-1/TV01.md). Ngày tra cứu và các nhận định được giữ theo bản tài liệu cung cấp; chưa kiểm tra lại các nguồn khi nhập vào vault. Chưa có phỏng vấn hoặc xác nhận nhu cầu từ client.
 
 Mã nguồn đề xuất: `SRC-TV01-01`, `SRC-TV02-01`... để các thành viên tránh trùng mã.
 
+Tuần 2 dùng mã mới `SRC-W2-TVxx-01`… trong từng bài tại `04-results/Week-2/`; nguồn cũ được tham chiếu bằng mã cũ. TV01 tổng hợp các nguồn mới khi thành viên gửi kết quả thực tế; không tạo bản ghi như đã phỏng vấn khi mới có kế hoạch.
+
 ## Tài liệu phương pháp để tham khảo
 
+- [Link template do nhóm cung cấp](../80-Templates/Link%20template.md): nguồn Miro và danh sách 8 template dùng cho tuần 2.
 - [Scrum Guide](https://scrumguides.org/scrum-guide.html)
 - [Scrum.org — What is a Product Owner?](https://www.scrum.org/resources/what-is-a-product-owner)
 - [Scrum.org — Product Owner Learning Path](https://www.scrum.org/pathway/product-owner-learning-path/)

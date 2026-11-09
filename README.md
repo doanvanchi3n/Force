@@ -1,7 +1,8 @@
 # Force — Vault chung của nhóm Chuyên đề 3
 
 Kho ghi chép dành cho 10 thành viên tìm hiểu Client và bài toán của đề tài.
-Đây là cấu trúc khởi đầu do nhóm có thể điều chỉnh, chưa phải bộ yêu cầu được giảng viên xác nhận.
+Từ tuần 2, nhóm chọn đề tài của TV01: **website hỗ trợ đăng ký và quản lý tham dự sự kiện cho câu lạc bộ sinh viên**.
+Mở [Board tuần 2](06-Planning/Board%20-%20week%202.md) để xem phân công theo [8 template nhóm cung cấp](80-Templates/Link%20template.md).
 
 ## Mở trên máy hiện tại
 
@@ -32,9 +33,10 @@ Chỉnh sửa trong Obsidian được lưu trên máy; cần commit và push đ�
 | `01-Team/` | Thành viên, quy trình Git và hướng dẫn thiết lập GitHub |
 | `02-Client/` | Bản Client tổng hợp |
 | `03-Research/` | Phát biểu vấn đề, nguồn thông tin, giả định |
-| `04-Members/` | 10 ghi chép cá nhân |
+| `04-results/Week-1/` | Ghi chép cá nhân tuần 1; bài TV01 là căn cứ chọn đề tài |
+| `04-results/Week-2/` | Kết quả và ghi chép theo phân công tuần 2 của TV01–TV10 |
 | `05-Meetings/` | Biên bản họp |
-| `06-Planning/` | Đặc tả board và danh sách việc khởi đầu |
+| `06-Planning/` | Board phân công theo từng tuần |
 | `80-Templates/` | Mẫu ghi chép để dùng lại |
 | `90-Assets/` | Ảnh và tài liệu đính kèm |
 

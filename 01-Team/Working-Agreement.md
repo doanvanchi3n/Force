@@ -2,7 +2,8 @@
 
 ## Phân chia công việc
 
-- Mỗi người hoàn thành ghi chép cá nhân trong `04-Members/`.
+- Tuần 2: mỗi người làm đúng phần được giao tại [Board tuần 2](../06-Planning/Board%20-%20week%202.md) và ghi vào `04-results/Week-2/TVxx.md`.
+- Bài tuần 1 được giữ tại `04-results/Week-1/`; cả nhóm dùng đề tài của TV01 cho tuần 2.
 - Mỗi cặp đọc chéo kiểm tra bằng chứng, chỗ chưa rõ và nhận xét của nhau.
 - Với tài liệu chung, thống nhất người đang sửa trước khi bắt đầu.
 - Người tổng hợp liên kết về nguồn và ghi chép gốc, giữ rõ ý kiến chưa thống nhất.
@@ -19,16 +20,16 @@ Chạy lệnh trong thư mục repository. Trước khi đổi nhánh, kiểm tr
 git status
 git switch main
 git pull --ff-only
-git switch -c research/tv01-client-01
+git switch -c research/week2-tv01-01
 ```
 
 Mở Obsidian, chỉnh sửa ghi chép, sau đó:
 
 ```bash
 git diff
-git add 04-Members/TV01.md
-git commit -m "docs: add TV01 client research"
-git push -u origin research/tv01-client-01
+git add 04-results/Week-2/TV01.md
+git commit -m "docs: update TV01 week 2 research"
+git push -u origin research/week2-tv01-01
 ```
 
 Trên GitHub, tạo Pull Request (PR) từ nhánh vừa push về `main`, liên kết Issue tương ứng và nhờ bạn cùng cặp đọc chéo. Sau khi sửa các góp ý và được đồng ý, merge PR rồi cập nhật bản trên máy:
@@ -38,7 +39,7 @@ git switch main
 git pull --ff-only
 ```
 
-Lần cập nhật tiếp theo dùng tên nhánh mới, ví dụ `research/tv01-client-02`.
+Lần cập nhật tiếp theo dùng tên nhánh mới, ví dụ `research/week2-tv01-02`.
 Nếu Git báo xung đột, cùng người sửa file đó thống nhất nội dung cần giữ trước khi tiếp tục.
 
 ## Cách dùng board

@@ -3,53 +3,63 @@
 Nhóm đã có đầy đủ thông tin của 10 thành viên TV01–TV10; các tài khoản GitHub đã được xác minh.
 Họ tên được giữ theo danh sách do nhóm cung cấp.
 
-| Mã | Họ tên | GitHub username | Ghi chép | Issue cá nhân | Người đọc chéo bài này (đề xuất) |
-| --- | --- | --- | --- | --- | --- |
-| TV01 | Doãn Văn Chiến | [@doanvanchi3n](https://github.com/doanvanchi3n) | [TV01](../04-Members/TV01.md) | [#1](https://github.com/doanvanchi3n/Force/issues/1) | TV02 — Huỳnh Văn Lợi |
-| TV02 | Huỳnh Văn Lợi | [@VanLoiK23](https://github.com/VanLoiK23) | [TV02](../04-Members/TV02.md) | [#2](https://github.com/doanvanchi3n/Force/issues/2) | TV01 — Doãn Văn Chiến |
-| TV03 | Huỳnh Thanh Thuận | [@phonEIT](https://github.com/phonEIT) | [TV03](../04-Members/TV03.md) | [#3](https://github.com/doanvanchi3n/Force/issues/3) | TV04 — Nguyễn Ánh Kim Ngân |
-| TV04 | Nguyễn Ánh Kim Ngân | [@kimngan1805](https://github.com/kimngan1805) | [TV04](../04-Members/TV04.md) | [#4](https://github.com/doanvanchi3n/Force/issues/4) | TV03 — Huỳnh Thanh Thuận |
-| TV05 | Nguyễn Nhã Quỳnh Nhi | [@quinnhingn](https://github.com/quinnhingn) | [TV05](../04-Members/TV05.md) | [#5](https://github.com/doanvanchi3n/Force/issues/5) | TV06 — Lê Quang Anh |
-| TV06 | Lê Quang Anh | [@qa5011](https://github.com/qa5011) | [TV06](../04-Members/TV06.md) | [#6](https://github.com/doanvanchi3n/Force/issues/6) | TV05 — Nguyễn Nhã Quỳnh Nhi |
-| TV07 | Hoàng Phan Hà | [@HoangPhanHa23ITEB028](https://github.com/HoangPhanHa23ITEB028) | [TV07](../04-Members/TV07.md) | [#7](https://github.com/doanvanchi3n/Force/issues/7) | TV08 — Võ Đình Minh Đức |
-| TV08 | Võ Đình Minh Đức | [@imduw](https://github.com/imduw) | [TV08](../04-Members/TV08.md) | [#8](https://github.com/doanvanchi3n/Force/issues/8) | TV07 — Hoàng Phan Hà |
-| TV09 | Phạm Nguyễn Phú Trọng | [@phutrong0912](https://github.com/phutrong0912) | [TV09](../04-Members/TV09.md) | [#9](https://github.com/doanvanchi3n/Force/issues/9) | TV10 — Nguyễn Đức Phúc |
-| TV10 | Nguyễn Đức Phúc | [@DUCPHUC1612](https://github.com/DUCPHUC1612) | [TV10](../04-Members/TV10.md) | [#10](https://github.com/doanvanchi3n/Force/issues/10) | TV09 — Phạm Nguyễn Phú Trọng |
+| Mã   | Họ tên                  | GitHub username                                                  |
+| ---- | ----------------------- | ---------------------------------------------------------------- |
+| TV01 | Doãn Văn Chiến (leader) | [@doanvanchi3n](https://github.com/doanvanchi3n)                 |
+| TV02 | Huỳnh Văn Lợi           | [@VanLoiK23](https://github.com/VanLoiK23)                       |
+| TV03 | Huỳnh Thanh Thuận       | [@phonEIT](https://github.com/phonEIT)                           |
+| TV04 | Nguyễn Ánh Kim Ngân     | [@kimngan1805](https://github.com/kimngan1805)                   |
+| TV05 | Nguyễn Nhã Quỳnh Nhi    | [@quinnhingn](https://github.com/quinnhingn)                     |
+| TV06 | Lê Quang Anh            | [@qa5011](https://github.com/qa5011)                             |
+| TV07 | Hoàng Phan Hà           | [@HoangPhanHa23ITEB028](https://github.com/HoangPhanHa23ITEB028) |
+| TV08 | Võ Đình Minh Đức        | [@imduw](https://github.com/imduw)                               |
+| TV09 | Phạm Nguyễn Phú Trọng   | [@phutrong0912](https://github.com/phutrong0912)                 |
+| TV10 | Nguyễn Đức Phúc         | [@DUCPHUC1612](https://github.com/DUCPHUC1612)                   |
 
-## Phân công hiện tại
+## Phân công hiện tại — tuần 2
 
-- Mỗi thành viên phụ trách ghi chép cá nhân và Issue cùng số thứ tự.
-- Đề xuất 5 cặp đọc chéo: TV01–TV02, TV03–TV04, TV05–TV06, TV07–TV08, TV09–TV10.
-- Người đọc chéo trong bảng là người kiểm tra bài của thành viên ở hàng đó.
-- Nhóm có thể điều chỉnh cặp khi thống nhất cách làm việc.
-- Issue #11 (Client Brief) và #12 (Problem Statement) cần nhóm thống nhất người tổng hợp khi có kết quả nghiên cứu.
+Cả nhóm dùng đề tài TV01 tuần 1: **Website hỗ trợ đăng ký và quản lý tham dự sự kiện cho câu lạc bộ sinh viên**.
+Xem [Board tuần 2](../06-Planning/Board%20-%20week%202.md) hoặc [GitHub Board tuần 2](https://github.com/users/doanvanchi3n/projects/4/views/2) để nhận việc; Issue tuần 2 là **#13–#22**, không trùng số mã TV.
+
+| Mã | Phần việc | Issue | Bài làm | Người đọc chéo |
+| --- | --- | --- | --- | --- |
+| TV01 | Tổng hợp, điều phối và kiểm tra bằng chứng | [#13](https://github.com/doanvanchi3n/Force/issues/13) | [TV01](../04-results/Week-2/TV01.md) | TV02 |
+| TV02 | Competitor Research | [#14](https://github.com/doanvanchi3n/Force/issues/14) | [TV02](../04-results/Week-2/TV02.md) | TV01 |
+| TV03 | Stakeholder Mapping | [#15](https://github.com/doanvanchi3n/Force/issues/15) | [TV03](../04-results/Week-2/TV03.md) | TV04 |
+| TV04 | User Research — ban tổ chức | [#16](https://github.com/doanvanchi3n/Force/issues/16) | [TV04](../04-results/Week-2/TV04.md) | TV03 |
+| TV05 | User Research — sinh viên tham gia | [#17](https://github.com/doanvanchi3n/Force/issues/17) | [TV05](../04-results/Week-2/TV05.md) | TV06 |
+| TV06 | User Persona | [#18](https://github.com/doanvanchi3n/Force/issues/18) | [TV06](../04-results/Week-2/TV06.md) | TV05 |
+| TV07 | Problem Statement | [#19](https://github.com/doanvanchi3n/Force/issues/19) | [TV07](../04-results/Week-2/TV07.md) | TV08 |
+| TV08 | Problem Canvas | [#20](https://github.com/doanvanchi3n/Force/issues/20) | [TV08](../04-results/Week-2/TV08.md) | TV07 |
+| TV09 | Customer Journey Map | [#21](https://github.com/doanvanchi3n/Force/issues/21) | [TV09](../04-results/Week-2/TV09.md) | TV10 |
+| TV10 | Assumption & Hypothesis Validation | [#22](https://github.com/doanvanchi3n/Force/issues/22) | [TV10](../04-results/Week-2/TV10.md) | TV09 |
 
 ## Truy cập GitHub và gán việc
 
-Trạng thái kiểm tra ngày 07/11/2026; lời mời đang chờ cần chính người nhận chấp nhận.
+Trạng thái repository và Assignee tuần 2 được kiểm tra ngày **10/11/2026**.
+TV01 là chủ Project; quyền Write của TV02–TV10 đã được thiết lập ở lần cấu hình trước. Quyền Project và repository được quản lý riêng.
 
-| Mã | Repository Force | Project Client Discovery | Issue cá nhân |
-| --- | --- | --- | --- |
-| TV01 | Chủ repository | Chủ Project | Đã gán @doanvanchi3n |
-| TV02 | Đã gửi lời mời — chờ chấp nhận | Đã cấp Write | Đã ghi người phụ trách; chờ nhận lời mời để gán Assignee |
-| TV03 | Đã gửi lời mời — chờ chấp nhận | Đã cấp Write | Đã ghi người phụ trách; chờ nhận lời mời để gán Assignee |
-| TV04 | Đã tham gia | Đã cấp Write | Đã gán @kimngan1805 |
-| TV05 | Đã gửi lời mời — chờ chấp nhận | Đã cấp Write | Đã ghi người phụ trách; chờ nhận lời mời để gán Assignee |
-| TV06 | Đã gửi lời mời — chờ chấp nhận | Đã cấp Write | Đã ghi người phụ trách; chờ nhận lời mời để gán Assignee |
-| TV07 | Đã tham gia | Đã cấp Write | Đã gán @HoangPhanHa23ITEB028 |
-| TV08 | Đã gửi lời mời — chờ chấp nhận | Đã cấp Write | Đã ghi người phụ trách; chờ nhận lời mời để gán Assignee |
-| TV09 | Đã gửi lời mời — chờ chấp nhận | Đã cấp Write | Đã ghi người phụ trách; chờ nhận lời mời để gán Assignee |
-| TV10 | Đã tham gia | Đã cấp Write | Đã gán @DUCPHUC1612 |
+| Mã | Repository Force | Assignee tuần 2 |
+| --- | --- | --- |
+| TV01 | Chủ repository | Đã gán @doanvanchi3n |
+| TV02 | Đã tham gia | Đã gán @VanLoiK23 |
+| TV03 | Đã tham gia | Đã gán @phonEIT |
+| TV04 | Đã tham gia | Đã gán @kimngan1805 |
+| TV05 | Đã tham gia | Đã gán @quinnhingn |
+| TV06 | Lời mời đang chờ chấp nhận | Chờ gán @qa5011 sau khi nhận lời mời |
+| TV07 | Đã tham gia | Đã gán @HoangPhanHa23ITEB028 |
+| TV08 | Lời mời đang chờ chấp nhận | Chờ gán @imduw sau khi nhận lời mời |
+| TV09 | Đã tham gia | Đã gán @phutrong0912 |
+| TV10 | Đã tham gia | Đã gán @DUCPHUC1612 |
 
-Sau khi thành viên chấp nhận lời mời, chủ repo mở Issue cá nhân theo bảng trên và thêm tài khoản đó vào **Assignees** nếu còn trống. Lời mời và tên người phụ trách trong mô tả Issue không tự hoàn tất bước gán Assignee.
+TV06 và TV08 cần chấp nhận [lời mời repository](https://github.com/doanvanchi3n/Force/invitations). Sau đó TV01 gán `qa5011` vào Issue #18 và `imduw` vào Issue #20. Tên người phụ trách trong mô tả không tự tạo Assignee.
 
-## Mỗi thành viên bắt đầu như sau
+## Bắt đầu công việc
 
-1. Đăng nhập đúng tài khoản GitHub trong bảng, kiểm tra lời mời tại [repository](https://github.com/doanvanchi3n/Force/invitations) hoặc thông báo GitHub và chấp nhận nếu có.
-2. Mở [Project](https://github.com/users/doanvanchi3n/projects/4) bằng tài khoản đã được cấp quyền.
-3. Clone `https://github.com/doanvanchi3n/Force.git`, hoặc pull nếu đã có bản trên máy.
-4. Mở thư mục clone bằng Obsidian, bắt đầu ở `00-Home.md` và ghi chép theo mã TV của mình.
-5. Khi bắt đầu, chuyển thẻ sang Doing; khi có PR để đọc chéo, chuyển sang Review.
-6. Ghi nguồn và câu hỏi còn mở; chỉ chuyển Done khi đã xử lý góp ý và merge tài liệu vào `main`.
+1. Đăng nhập đúng tài khoản trong bảng và nhận lời mời nếu còn chờ.
+2. Pull repository, mở thư mục gốc bằng Obsidian rồi vào `00-Home.md`.
+3. Mở Issue tuần 2 của mình, xem tiêu chí và đầu vào; chuyển Doing khi bắt đầu.
+4. Làm trong `04-results/Week-2/TVxx.md`, thêm link frame Miro và nguồn; giữ bài tuần 1 tại `04-results/Week-1/`.
+5. Tạo PR, nhờ người đọc chéo và chuyển Review; xử lý góp ý, merge trước khi Done.
 
-Quy trình chi tiết: [Working Agreement](Working-Agreement.md). Quyền ghi vào repository và quyền Write của Project được quản lý riêng.
+Quy trình: [Working Agreement](Working-Agreement.md). Lịch sử tuần 1: [Board tuần 1](../06-Planning/Board%20-%20week%201.md); các Issue cũ giữ nguyên trạng thái.

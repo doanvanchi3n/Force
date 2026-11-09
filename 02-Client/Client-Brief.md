@@ -1,14 +1,17 @@
 # Client Brief — Bản tổng hợp
 
-Trạng thái: Chưa nghiên cứu / chưa xác nhận.
-Người tổng hợp: Chưa phân công.
-Ngày cập nhật: Chưa điền.
+Trạng thái: Nhóm đã chọn đề tài TV01 ngày 10/11/2026; nghiên cứu sơ bộ, chưa được client xác nhận.
+Người tổng hợp: TV01 — Doãn Văn Chiến, theo [Board tuần 2](../06-Planning/Board%20-%20week%202.md).
+Ngày cập nhật phân công: 10/11/2026.
+
+Đề tài: **Website hỗ trợ đăng ký và quản lý tham dự sự kiện cho câu lạc bộ sinh viên**.
+Căn cứ: [TV01 tuần 1](../04-results/Week-1/TV01.md). Việc chọn đề tài trong nhóm chưa xác nhận nhu cầu hay sự hợp tác của CLB; các mục chưa điền chờ kết quả tuần 2.
 
 ## 1. Client và người dùng
 
-- Client / bên có bài toán:
-- Người trực tiếp sử dụng:
-- Người cung cấp thông tin, người xác nhận yêu cầu:
+- Client tiềm năng: Câu lạc bộ Kỹ năng VKU (VSC); cần xác nhận đầu mối và sự hợp tác.
+- Người trực tiếp sử dụng dự kiến: ban tổ chức sự kiện và sinh viên tham gia; cần kiểm chứng qua User Research.
+- Người cung cấp thông tin, người xác nhận yêu cầu: chưa xác định; TV03–TV04 phối hợp TV01 tiếp cận.
 
 ## 2. Bối cảnh và cách làm hiện tại
 

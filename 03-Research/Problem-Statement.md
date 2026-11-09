@@ -2,6 +2,11 @@
 
 Trạng thái: Chưa soạn / chưa xác nhận với Client.
 
+Đề tài chung từ tuần 2: website hỗ trợ đăng ký và quản lý tham dự sự kiện cho câu lạc bộ sinh viên, theo [bài TV01 tuần 1](../04-results/Week-1/TV01.md).
+Người phụ trách: **TV07 — Hoàng Phan Hà**; đọc chéo: **TV08 — Võ Đình Minh Đức**.
+Ghi phân tích, nguồn và lịch sử điều chỉnh tại [bài TV07 tuần 2](../04-results/Week-2/TV07.md), rồi cập nhật phát biểu đã đọc chéo vào trang này.
+Phân công và deadline: [Board tuần 2](../06-Planning/Board%20-%20week%202.md).
+
 ## Phát biểu vấn đề
 
 > [Nhóm người dùng] gặp [vấn đề] khi [công việc và bối cảnh], dẫn đến [ảnh hưởng].
