@@ -46,13 +46,13 @@ TV01 là chủ Project; quyền Write của TV02–TV10 đã được thiết l�
 | TV03 | Đã tham gia | Đã gán @phonEIT |
 | TV04 | Đã tham gia | Đã gán @kimngan1805 |
 | TV05 | Đã tham gia | Đã gán @quinnhingn |
-| TV06 | Lời mời đang chờ chấp nhận | Chờ gán @qa5011 sau khi nhận lời mời |
+| TV06 | Đã tham gia | Đã gán @qa5011 |
 | TV07 | Đã tham gia | Đã gán @HoangPhanHa23ITEB028 |
 | TV08 | Lời mời đang chờ chấp nhận | Chờ gán @imduw sau khi nhận lời mời |
 | TV09 | Đã tham gia | Đã gán @phutrong0912 |
 | TV10 | Đã tham gia | Đã gán @DUCPHUC1612 |
 
-TV06 và TV08 cần chấp nhận [lời mời repository](https://github.com/doanvanchi3n/Force/invitations). Sau đó TV01 gán `qa5011` vào Issue #18 và `imduw` vào Issue #20. Tên người phụ trách trong mô tả không tự tạo Assignee.
+TV06 cần chấp nhận [lời mời repository](https://github.com/doanvanchi3n/Force/invitations). Sau đó TV01 gán `imduw` vào Issue #20. Tên người phụ trách trong mô tả không tự tạo Assignee.
 
 ## Bắt đầu công việc
 
