@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Force · Đăng ký sự kiện</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="./index.html"><span aria-hidden="true">F</span> Force</a>
+    <details class="DemoControls" data-component="DemoControls">
+      <summary>Kịch bản demo</summary>
+      <div class="controls">
+        <label for="scenario">Tình huống</label>
+        <select id="scenario">
+          <option value="auto">Xác nhận tự động</option>
+          <option value="closed">Đã đóng đăng ký</option>
+          <option value="review">Chờ BTC duyệt</option>
+          <option value="duplicate">Email đã đăng ký</option>
+          <option value="repeat">Gửi lặp cùng yêu cầu</option>
+          <option value="save-error">Lỗi lưu lần đầu</option>
+          <option value="mail-error">Lỗi gửi thư lần đầu</option>
+        </select>
+        <button class="ActionButton secondary" id="reset" type="button">Đặt lại phiên</button>
+      </div>
+    </details>
+  </header>
+  <main class="layout">
+    <aside class="EventCard" data-component="EventCard" aria-label="Thông tin sự kiện">
+      <div class="poster" aria-hidden="true"><span>FORCE WORKSHOP</span><strong>NÓI<br>ĐỂ KẾT NỐI<span>.</span></strong><small>12 / 12</small></div>
+      <div class="event-info">
+        <span class="StatusBadge" id="availability" data-tone="success">Đang nhận đăng ký</span>
+        <dl>
+          <div><dt>Thời gian</dt><dd>09:00–11:00 · 12/12/2026</dd></div>
+          <div><dt>Địa điểm</dt><dd>Phòng A101 · Cơ sở mẫu</dd></div>
+        </dl>
+        <small>Sự kiện và dữ liệu giả lập</small>
+      </div>
+    </aside>
+    <div class="flow">
+      <ol class="StepNav" data-component="StepNav" aria-label="Tiến trình đăng ký">
+        <li aria-current="step">Chi tiết</li><li>Đăng ký</li><li>Kết quả</li>
+      </ol>
+      <section id="detail" class="ScreenPanel" data-component="ScreenPanel">
+        <h1 tabindex="-1">Nói để kết nối</h1>
+        <p class="lead">Workshop thực hành nói trước đám đông dành cho sinh viên. Bạn sẽ kể một câu chuyện ngắn, luyện trình bày theo nhóm và nhận góp ý từ các bạn cùng tham gia.</p>
+        <button type="button" class="ActionButton" id="start">Đăng ký tham gia <span aria-hidden="true">↗</span></button>
+        <p class="Notice" id="closed" data-tone="warning" hidden>Sự kiện đã đóng đăng ký.</p>
+      </section>
+      <section id="register" class="ScreenPanel" data-component="ScreenPanel" hidden>
+        <h1 tabindex="-1">Đăng ký tham gia</h1>
+        <p class="lead">Dùng dữ liệu mẫu để thử đăng ký workshop Nói để kết nối.</p>
+        <form class="RegistrationForm" data-component="RegistrationForm" id="form" novalidate>
+          <div class="FormField" data-component="FormField">
+            <label for="name">Họ và tên <span>(bắt buộc)</span></label>
+            <input id="name" name="name" autocomplete="off" required maxlength="100" aria-describedby="name-error" placeholder="Nguyễn An">
+            <small id="name-error" class="field-error"></small>
+          </div>
+          <div class="FormField" data-component="FormField">
+            <label for="email">Email <span>(bắt buộc)</span></label>
+            <input id="email" name="email" type="email" autocomplete="off" required maxlength="254" aria-describedby="email-error" placeholder="an@example.test">
+            <small id="email-error" class="field-error"></small>
+          </div>
+          <p class="Notice" id="form-note" role="alert" data-tone="error" hidden></p>
+          <div class="actions"><button class="ActionButton" type="submit">Gửi đăng ký</button><button class="ActionButton secondary" id="fill" type="button">Điền dữ liệu mẫu</button><button class="ActionButton text" id="back" type="button">Về chi tiết</button></div>
+        </form>
+      </section>
+      <section id="result" class="ScreenPanel" data-component="ScreenPanel" hidden>
+        <span class="StatusBadge" id="registration-status"></span>
+        <h1 tabindex="-1" id="result-title"></h1>
+        <p class="lead" id="result-copy"></p>
+        <p>Mã đăng ký <strong id="reference"></strong></p>
+        <p class="Notice" id="mail-status" role="status"></p>
+        <div class="actions">
+          <button class="ActionButton" id="view-mail" type="button">Mở hộp thư mô phỏng</button>
+          <button class="ActionButton" id="resend" type="button" hidden>Thử gửi lại</button>
+          <button class="ActionButton secondary" id="approve" type="button" hidden>Mô phỏng BTC duyệt</button>
+          <button class="ActionButton text" id="new-entry" type="button">Về chi tiết</button>
+        </div>
+      </section>
+    </div>
+  </main>
+  <dialog class="InboxDialog" data-component="InboxDialog" id="inbox" aria-labelledby="inbox-title">
+    <h2 id="inbox-title">Hộp thư mô phỏng</h2>
+    <div id="messages"></div>
+    <form method="dialog"><button class="ActionButton secondary">Đóng hộp thư</button></form>
+  </dialog>
+</body>
+</html>

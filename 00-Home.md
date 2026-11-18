@@ -17,6 +17,7 @@ Client tiềm năng là VSC, còn cần xác minh hợp tác và nhu cầu.
 
 ## Nội dung chung
 
+- [BID — Yêu cầu và tiêu chí chấp nhận](06-Planning/BID.md)
 - [Client Brief](02-Client/Client-Brief.md)
 - [Problem Statement](03-Research/Problem-Statement.md)
 - [Research Log](03-Research/Research-Log.md)
