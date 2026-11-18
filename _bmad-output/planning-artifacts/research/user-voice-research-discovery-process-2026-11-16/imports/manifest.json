@@ -1,0 +1,79 @@
+[
+  {
+    "id": "W1-TV01",
+    "original": "docs/discovery/results/Week-1/TV01.md",
+    "snapshot": "imports/W1-TV01.md.txt",
+    "sha256": "c717f68e099a897353de3ba5bf949d1f49804b1c8a20cd6082d1c357beccdb4b",
+    "accessed": "2026-11-16"
+  },
+  {
+    "id": "W2-TV01",
+    "original": "docs/discovery/results/Week-2/TV01.md",
+    "snapshot": "imports/W2-TV01.md.txt",
+    "sha256": "53bf01ffd8ea890daa62669476d2a2775dc590524838f9e3b8e6c99582576f14",
+    "accessed": "2026-11-16"
+  },
+  {
+    "id": "W2-TV02",
+    "original": "docs/discovery/results/Week-2/TV02.md",
+    "snapshot": "imports/W2-TV02.md.txt",
+    "sha256": "317d5450cf7fb3f8ef3aa16a9304001313568d0b6ed208ecc1fbb3e09e5c47b3",
+    "accessed": "2026-11-16"
+  },
+  {
+    "id": "W2-TV03",
+    "original": "docs/discovery/results/Week-2/TV03.md",
+    "snapshot": "imports/W2-TV03.md.txt",
+    "sha256": "d30df896589f7563e506937a118cfa9fb9eae4f02e5dceddd96e2a3589797c52",
+    "accessed": "2026-11-16"
+  },
+  {
+    "id": "W2-TV04",
+    "original": "docs/discovery/results/Week-2/TV04.md",
+    "snapshot": "imports/W2-TV04.md.txt",
+    "sha256": "c013ec572b59aaf4d80907e7992db400525e0e8b23cb3d859c73e9530ee8d0bf",
+    "accessed": "2026-11-16"
+  },
+  {
+    "id": "W2-TV05",
+    "original": "docs/discovery/results/Week-2/TV05.md",
+    "snapshot": "imports/W2-TV05.md.txt",
+    "sha256": "02bd3bad830ce2a287e6f88a45064d4441415b4d11793f0257d3789479bb6503",
+    "accessed": "2026-11-16"
+  },
+  {
+    "id": "W2-TV06",
+    "original": "docs/discovery/results/Week-2/TV06.md",
+    "snapshot": "imports/W2-TV06.md.txt",
+    "sha256": "208626a661249f932c2bb6fcb39b4ed6c5d9d22633c2198985be1b5a752217e3",
+    "accessed": "2026-11-16"
+  },
+  {
+    "id": "W2-TV07",
+    "original": "docs/discovery/results/Week-2/TV07.md",
+    "snapshot": "imports/W2-TV07.md.txt",
+    "sha256": "03ef54b10110029bbccaa2ee66c492623b8fda26e4ad0e00bdd0d262604d1e9f",
+    "accessed": "2026-11-16"
+  },
+  {
+    "id": "W2-TV08",
+    "original": "docs/discovery/results/Week-2/TV08.md",
+    "snapshot": "imports/W2-TV08.md.txt",
+    "sha256": "b7a106241a1ee60e7512088d573790b7feb1b72c880703a8be0ec61781732db2",
+    "accessed": "2026-11-16"
+  },
+  {
+    "id": "W2-TV09",
+    "original": "docs/discovery/results/Week-2/TV09.md",
+    "snapshot": "imports/W2-TV09.md.txt",
+    "sha256": "f1646b93e3a5bdd31f42845bbb6e3d2b5f43a6e46494f2fbcdeb22e1a5be7cc2",
+    "accessed": "2026-11-16"
+  },
+  {
+    "id": "W2-TV10",
+    "original": "docs/discovery/results/Week-2/TV10.md",
+    "snapshot": "imports/W2-TV10.md.txt",
+    "sha256": "a6b87219154a9a22743b6918d67d97564a27efc55d5bca6bb6e71929b93ed2e5",
+    "accessed": "2026-11-16"
+  }
+]
