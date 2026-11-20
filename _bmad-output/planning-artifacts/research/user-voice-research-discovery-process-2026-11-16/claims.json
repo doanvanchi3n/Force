@@ -1,0 +1,205 @@
+{
+  "note": "pub_date chưa rõ; reported_collection_date là ngày báo cáo ghi đã thu thập nguồn, không phải ngày xuất bản. ref định danh claim, không phải citation nguồn.",
+  "claims": [
+    {
+      "ref": 1,
+      "claim": "VSC là client tiềm năng, chưa có xác nhận nhu cầu/hợp tác trong corpus.",
+      "class": "client",
+      "sources": [
+        "W1-TV01",
+        "W2-TV03",
+        "W2-TV10"
+      ],
+      "publisher": "Nhóm Force; nguồn gốc và via tại sổ bằng chứng/digests",
+      "pub_date": null,
+      "reported_collection_date": null,
+      "accessed": "2026-11-16",
+      "status": "unverified"
+    },
+    {
+      "ref": 2,
+      "claim": "TV04 báo N=10/n=8, trùng 6/8, sai/thiếu 5/8, mạng/thiết bị 4/8 và tổng hợp >2 giờ 4/8.",
+      "class": "sentiment",
+      "sources": [
+        "W2-TV04"
+      ],
+      "publisher": "Nhóm Force; nguồn gốc và via tại sổ bằng chứng/digests",
+      "pub_date": null,
+      "reported_collection_date": "2026-11-12",
+      "accessed": "2026-11-16",
+      "status": "unverified"
+    },
+    {
+      "ref": 3,
+      "claim": "TV05 báo N=7/n=6, xác nhận ngay 3/6, sát ngày 2/6, không nhận 1/6 và không thấy tên 3/6.",
+      "class": "sentiment",
+      "sources": [
+        "W2-TV05"
+      ],
+      "publisher": "Nhóm Force; nguồn gốc và via tại sổ bằng chứng/digests",
+      "pub_date": null,
+      "reported_collection_date": "2026-11-12",
+      "accessed": "2026-11-16",
+      "status": "unverified"
+    },
+    {
+      "ref": 4,
+      "claim": "TV04 có trung vị hài lòng 4/5; TV05 báo trung bình 3,3/5 cho câu hỏi khác.",
+      "class": "sentiment",
+      "sources": [
+        "W2-TV04",
+        "W2-TV05"
+      ],
+      "publisher": "Nhóm Force; nguồn gốc và via tại sổ bằng chứng/digests",
+      "pub_date": null,
+      "reported_collection_date": "2026-11-12",
+      "accessed": "2026-11-16",
+      "status": "unverified"
+    },
+    {
+      "ref": 5,
+      "claim": "TV02 báo Forms/Sheets có nhận phản hồi, liên kết và xuất danh sách; tính năng hiện hành chưa kiểm tra lại.",
+      "class": "features",
+      "sources": [
+        "W2-TV02"
+      ],
+      "publisher": "Nhóm Force; nguồn gốc và via tại sổ bằng chứng/digests",
+      "pub_date": null,
+      "reported_collection_date": "2026-11-11",
+      "accessed": "2026-11-16",
+      "status": "unverified"
+    },
+    {
+      "ref": 6,
+      "claim": "Vai trò/quyền stakeholder TV03 còn sơ bộ; khảo sát n=12 thiếu dữ liệu gốc.",
+      "class": "stakeholder",
+      "sources": [
+        "W2-TV03"
+      ],
+      "publisher": "Nhóm Force; nguồn gốc và via tại sổ bằng chứng/digests",
+      "pub_date": null,
+      "reported_collection_date": "2026-11-10",
+      "accessed": "2026-11-16",
+      "status": "unverified"
+    },
+    {
+      "ref": 7,
+      "claim": "TV06/07/08/10 dẫn lại khảo sát; TV01 tuần 2 và TV09 chưa có kết quả nghiên cứu.",
+      "class": "provenance",
+      "sources": [
+        "W2-TV01",
+        "W2-TV06",
+        "W2-TV07",
+        "W2-TV08",
+        "W2-TV09",
+        "W2-TV10"
+      ],
+      "publisher": "Nhóm Force; nguồn gốc và via tại sổ bằng chứng/digests",
+      "pub_date": null,
+      "reported_collection_date": null,
+      "accessed": "2026-11-16",
+      "status": "unverified"
+    },
+    {
+      "ref": 8,
+      "claim": "Q6 TV05 chỉ đo kênh nhận vé/QR; chưa đủ bác bỏ mọi tác vụ portal/tài khoản.",
+      "class": "measurement",
+      "sources": [
+        "W2-TV05",
+        "W2-TV10"
+      ],
+      "publisher": "Nhóm Force; nguồn gốc và via tại sổ bằng chứng/digests",
+      "pub_date": null,
+      "reported_collection_date": null,
+      "accessed": "2026-11-16",
+      "status": "unverified"
+    },
+    {
+      "ref": 9,
+      "claim": "Q7 TV05 dùng tình huống nếu bận; không xác lập tỷ lệ no-show thực tế.",
+      "class": "measurement",
+      "sources": [
+        "W2-TV05",
+        "W2-TV10"
+      ],
+      "publisher": "Nhóm Force; nguồn gốc và via tại sổ bằng chứng/digests",
+      "pub_date": null,
+      "reported_collection_date": null,
+      "accessed": "2026-11-16",
+      "status": "unverified"
+    },
+    {
+      "ref": 10,
+      "claim": "Chưa có quan sát/log chứng minh dữ liệu phân tán gây check-in chậm hoặc cần real-time/QR.",
+      "class": "causality",
+      "sources": [
+        "W2-TV04",
+        "W2-TV05",
+        "W2-TV07",
+        "W2-TV10"
+      ],
+      "publisher": "Nhóm Force; nguồn gốc và via tại sổ bằng chứng/digests",
+      "pub_date": null,
+      "reported_collection_date": null,
+      "accessed": "2026-11-16",
+      "status": "unverified"
+    },
+    {
+      "ref": 11,
+      "claim": "Canvas TV08 và Journey TV09 chưa hoàn thành trong bản nhập; các viện dẫn hoàn tất ở TV10 chưa được hỗ trợ.",
+      "class": "provenance",
+      "sources": [
+        "W2-TV08",
+        "W2-TV09",
+        "W2-TV10"
+      ],
+      "publisher": "Nhóm Force; nguồn gốc và via tại sổ bằng chứng/digests",
+      "pub_date": null,
+      "reported_collection_date": null,
+      "accessed": "2026-11-16",
+      "status": "unverified"
+    },
+    {
+      "ref": 12,
+      "claim": "TV02 báo Luma hỗ trợ luồng khách/check-in, kèm giới hạn gói/giá; chưa kiểm tra lại ngoài corpus.",
+      "class": "features-pricing",
+      "sources": [
+        "W2-TV02"
+      ],
+      "publisher": "Nhóm Force; nguồn gốc và via tại sổ bằng chứng/digests",
+      "pub_date": null,
+      "reported_collection_date": "2026-11-12",
+      "accessed": "2026-11-16",
+      "status": "unverified"
+    },
+    {
+      "ref": 13,
+      "claim": "TV02 báo Eventbrite hỗ trợ đăng ký/check-in; giá/khu vực và tình huống thử còn giới hạn.",
+      "class": "features-pricing",
+      "sources": [
+        "W2-TV02"
+      ],
+      "publisher": "Nhóm Force; nguồn gốc và via tại sổ bằng chứng/digests",
+      "pub_date": null,
+      "reported_collection_date": "2026-11-12",
+      "accessed": "2026-11-16",
+      "status": "unverified"
+    },
+    {
+      "ref": 14,
+      "claim": "Chưa có baseline sự kiện và xác nhận client để chốt hiệu quả, KPI hay phạm vi giải pháp.",
+      "class": "readiness",
+      "sources": [
+        "W1-TV01",
+        "W2-TV07",
+        "W2-TV08",
+        "W2-TV10"
+      ],
+      "publisher": "Nhóm Force; nguồn gốc và via tại sổ bằng chứng/digests",
+      "pub_date": null,
+      "reported_collection_date": null,
+      "accessed": "2026-11-16",
+      "status": "unverified"
+    }
+  ]
+}

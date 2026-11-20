@@ -19,3 +19,14 @@ Thumbs.db
 .agents/
 node_modules/
 __pycache__/
+
+# Local source checkouts, backups, and temporary machine state.
+/.tools/
+/.local/
+.obsidian/.obsidian/
+
+# BMAD personal configuration and rendered workflow snapshots.
+/_bmad/config.user.toml
+/_bmad/custom/config.user.toml
+/_bmad/render/*
+!/_bmad/render/.gitignore

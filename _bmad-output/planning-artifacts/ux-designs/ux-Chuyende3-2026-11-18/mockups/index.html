@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Force — Bản thử đăng ký và tham dự sự kiện</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Đến nội dung chính</a>
+  <aside class="demo-toolbar" aria-label="Công cụ bản thử, không phải chức năng sản phẩm">
+    <div class="demo-intro"><span class="demo-dot" aria-hidden="true"></span><strong>BẢN THỬ</strong><span>Bản thiết kế V1 · Sự kiện và dữ liệu giả lập</span></div>
+    <div class="demo-controls">
+      <label>Vai trò <select id="demo-role"><option value="student">Sinh viên</option><option value="organizer">Ban tổ chức</option></select></label>
+      <label>Mạng <select id="demo-network"><option value="online">Khả dụng</option><option value="offline">Mất kết nối</option></select></label>
+      <label class="checkbox-label"><input type="checkbox" id="demo-permission" checked> Có quyền cập nhật</label>
+      <button type="button" class="demo-button" id="demo-reset">Đặt lại</button>
+      <button type="button" class="demo-button" id="demo-empty">Dữ liệu rỗng</button>
+      <a href="components.html" class="demo-button">Thành phần ↗</a>
+      <button type="button" class="demo-button" id="demo-help">Hướng dẫn</button>
+    </div>
+  </aside>
+  <div id="app"></div>
+  <p id="live" class="sr-only" role="status" aria-live="polite" aria-atomic="true"></p>
+  <dialog id="dialog" aria-labelledby="dialog-title">
+    <div id="dialog-content"></div>
+  </dialog>
+  <noscript><main class="page"><h1>Bản thử cần JavaScript để tương tác</h1><p>Bạn vẫn có thể xem <a href="key-event.html">màn hình sự kiện</a>, <a href="key-attendees.html">danh sách tham dự</a> và <a href="key-check-in.html">check-in</a> dưới dạng tĩnh.</p></main></noscript>
+</body>
+</html>
