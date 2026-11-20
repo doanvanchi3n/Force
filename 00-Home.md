@@ -22,11 +22,7 @@ Client tiềm năng là VSC, còn cần xác minh hợp tác và nhu cầu.
 
 ## Nội dung chung
 
-- [Client Brief](docs/discovery/client/Client-Brief.md)
-- [Problem Statement](docs/discovery/research/Problem-Statement.md)
-- [Research Log](docs/discovery/research/Research-Log.md)
-- [Giả định và câu hỏi cần xác minh](docs/discovery/research/Assumptions.md)
-- [Biên bản họp](docs/meetings/README.md)
+
 
 ## Bài làm theo tuần
 
