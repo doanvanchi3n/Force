@@ -1,0 +1,47 @@
+{
+  "note": "recon_kit yêu cầu field pub_date có ngày. Trong đầu vào tính lịch này, field đó là mốc thu thập được báo cáo; KHÔNG sửa pub_date=null ở claims.json. Không chứng minh dữ liệu còn đúng hoặc mới được xác minh.",
+  "claims": [
+    {
+      "claim": "TV04 báo N=10/n=8, trùng 6/8, sai/thiếu 5/8, mạng/thiết bị 4/8 và tổng hợp >2 giờ 4/8.",
+      "ref": 2,
+      "class": "sentiment",
+      "pub_date": "2026-11-12",
+      "date_basis": "reported_collection_date used as scheduling proxy only; actual publication date unknown"
+    },
+    {
+      "claim": "TV05 báo N=7/n=6, xác nhận ngay 3/6, sát ngày 2/6, không nhận 1/6 và không thấy tên 3/6.",
+      "ref": 3,
+      "class": "sentiment",
+      "pub_date": "2026-11-12",
+      "date_basis": "reported_collection_date used as scheduling proxy only; actual publication date unknown"
+    },
+    {
+      "claim": "TV04 có trung vị hài lòng 4/5; TV05 báo trung bình 3,3/5 cho câu hỏi khác.",
+      "ref": 4,
+      "class": "sentiment",
+      "pub_date": "2026-11-12",
+      "date_basis": "reported_collection_date used as scheduling proxy only; actual publication date unknown"
+    },
+    {
+      "claim": "TV02 báo Forms/Sheets có nhận phản hồi, liên kết và xuất danh sách; tính năng hiện hành chưa kiểm tra lại.",
+      "ref": 5,
+      "class": "features",
+      "pub_date": "2026-11-11",
+      "date_basis": "reported_collection_date used as scheduling proxy only; actual publication date unknown"
+    },
+    {
+      "claim": "TV02 báo Luma hỗ trợ luồng khách/check-in, kèm giới hạn gói/giá; chưa kiểm tra lại ngoài corpus.",
+      "ref": 12,
+      "class": "features-pricing",
+      "pub_date": "2026-11-12",
+      "date_basis": "reported_collection_date used as scheduling proxy only; actual publication date unknown"
+    },
+    {
+      "claim": "TV02 báo Eventbrite hỗ trợ đăng ký/check-in; giá/khu vực và tình huống thử còn giới hạn.",
+      "ref": 13,
+      "class": "features-pricing",
+      "pub_date": "2026-11-12",
+      "date_basis": "reported_collection_date used as scheduling proxy only; actual publication date unknown"
+    }
+  ]
+}

@@ -1,6 +1,11 @@
 {
   "useMarkdownLinks": true,
   "newLinkFormat": "relative",
-  "attachmentFolderPath": "90-Assets",
-  "alwaysUpdateLinks": true
+  "attachmentFolderPath": "docs/assets",
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "docs/inbox",
+  "userIgnoreFilters": [
+    "_bmad/"
+  ]
 }

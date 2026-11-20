@@ -1,0 +1,9 @@
+{
+  "name": "ui-ux-pro-max",
+  "version": "2.15.0",
+  "repository": "nextlevelbuilder/ui-ux-pro-max-skill",
+  "commit": "902bf616a0cc590d3f89f233f0c4e00072e549f0",
+  "skill_path": ".claude/skills/ui-ux-pro-max",
+  "payload_sha256": "8782965b0c2b128d0dd01bb8af53e60f80b3bae31dc78e971217a6a4fa4c3bb4",
+  "license_sha256": "738f69dfa83db5c347c678fb9d90e560877059f0de93a327c39001bff92dc014"
+}
