@@ -8,7 +8,7 @@ ghi nhận đã chạy thêm thử nghiệm.
 ## Sổ giả định
 
 `RD-A*` là mã mới của bộ này. Cột đối chiếu giữ mã TV10 để truy vết, không sửa hoặc
-đồng nhất mã trùng ở tuần 1/TV08. Trong TV08, A03/A04 còn đổi nghĩa giữa §3.4 và §5.
+đồng nhất mã trùng ở tuần 1/TV08. Trong TV08, mã A03/A04 đổi nghĩa giữa §3.4 và §5: ở §3.4, A03 = xác thực MSSV/email trường, A04 = triển khai thử nghiệm website; ở §5, A04 = xác thực MSSV/email trường. Bảng dưới dùng mã mới RD-A* để tránh nhầm, không tái định nghĩa mã TV08.
 
 | Mã mới | Giả định và mã TV10 | Bằng chứng hiện có | Trạng thái dùng trong bộ mới | Cách kiểm chứng/điểm quyết định đề xuất |
 | --- | --- | --- | --- | --- |

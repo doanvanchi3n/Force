@@ -9,7 +9,7 @@ kiểm tra từ xa trong lần tổng hợp này. Bản lưu và checksum tại 
 `Vừa` nghĩa là có nội dung được báo cáo nhưng chưa kiểm tra nguồn gốc độc lập;
 `Thấp` áp dụng suy luận, thiếu bằng chứng hoặc kết luận còn mâu thuẫn. Việc đọc
 đúng câu chữ/trạng thái tài liệu không xác nhận hiện thực được câu chữ mô tả.
-Ngày xuất bản của 11 báo cáo đều chưa rõ; các mốc dưới đây có loại ngày riêng.
+Ngày xuất bản chính thức của phần lớn báo cáo chưa rõ; một số bài đã ghi ngày thu thập/tìm hiểu (TV01: 07/11/2026; TV10: 07–09/11/2026; TV04/TV05: 12/11/2026; TV03: 10/11/2026). Các mốc dưới đây phân loại theo loại ngày.
 
 | ID | Báo cáo gốc | Loại nguồn/nội dung | Ngày được nguồn ghi | Trạng thái frontmatter | Độ dùng làm bằng chứng thực tế |
 | --- | --- | --- | --- | --- | --- |
@@ -19,7 +19,7 @@ Ngày xuất bản của 11 báo cáo đều chưa rõ; các mốc dưới đây
 | W2-TV03 | [Stakeholder](../../../../docs/discovery/results/Week-2/TV03.md) | Bản đồ sơ bộ; nhắc khảo sát n=12 | Nguồn/đọc chéo ghi 10/11/2026 | Review | Thấp với nhu cầu/thẩm quyền; n=12 chưa kiểm tra được |
 | W2-TV04 | [Khảo sát BTC](../../../../docs/discovery/results/Week-2/TV04.md) | Bảng hỏi và tổng hợp N=10/n=8 | Thu thập 12/11/2026, GMT+7 | Doing | Vừa trong phạm vi tự báo cáo; chưa đối chiếu CSV |
 | W2-TV05 | [Khảo sát sinh viên](../../../../docs/discovery/results/Week-2/TV05.md) | Bảng hỏi và tổng hợp N=7/n=6 | Thu thập 12/11/2026, GMT+7 | Doing | Vừa cho số đếm; thấp với suy luận vượt câu hỏi |
-| W2-TV06 | [Persona](../../../../docs/discovery/results/Week-2/TV06.md) | Tổng hợp từ TV04/TV05 | Dẫn ngày khảo sát 12/11; ngày lập chưa rõ | Doing | Persona sơ bộ, không thêm mẫu |
+| W2-TV06 | [Persona](../../../../docs/discovery/results/Week-2/TV06.md) | Tổng hợp từ TV04/TV05 | Dẫn ngày khảo sát 12/11; ngày lập chưa rõ | Done | Persona sơ bộ, không thêm mẫu |
 | W2-TV07 | [Problem Statement](../../../../docs/discovery/results/Week-2/TV07.md) | Tổng hợp và phát biểu nháp | Ngày lập chưa rõ; không dùng ngày TV10 gán làm ngày xuất bản | Doing | Diễn giải có giới hạn; chưa được client duyệt |
 | W2-TV08 | [Problem Canvas](../../../../docs/discovery/results/Week-2/TV08.md) | Ghi chú chuẩn bị, Canvas/Miro chưa điền | Ngày lập chưa rõ | Doing | Đầu vào phân tích; chưa có Canvas hoàn tất |
 | W2-TV09 | [Journey](../../../../docs/discovery/results/Week-2/TV09.md) | Template chưa có kết quả | Không rõ | Todo | Không có phát hiện hành trình |
