@@ -1,6 +1,11 @@
+---
+author: Huỳnh Thanh Thuận
+updated_at: 2026-11-27
+---
+
 # Design system · Force
 
-Token dưới đây chỉ mô tả demo đăng ký riêng trong `prototype/dist/`. Khi làm bộ core 27/11, đọc [DESIGN hiện hành](../_bmad-output/planning-artifacts/ux-designs/ux-Chuyende3-2026-11-18/DESIGN.md) và [bảng chuyển nghĩa](../_bmad-output/planning-artifacts/TRACEABILITY_MATRIX.md); không duy trì hai bộ token cùng có thẩm quyền cho một tác vụ.
+Token gốc dưới đây mô tả bản thử BID. Bản thử core áp dụng token của [[_bmad-output/planning-artifacts/ux-designs/ux-Chuyende3-2026-11-18/DESIGN|DESIGN hiện hành]] trong CSS theo `data-mode="core"`. Xem [[prototype/README|Cách chạy hai bản thử]] và [[TRACEABILITY_MATRIX#Bản thử TV03]].
 
 Tên trong bảng trùng với class trong `dist/index.html`. Token được khai báo tại `:root` trong `dist/styles.css`.
 

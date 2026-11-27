@@ -9,7 +9,7 @@
 </head>
 <body>
   <header class="top">
-    <a class="brand" href="./index.html"><span aria-hidden="true">F</span> Force</a>
+    <div class="identity"><span class="brand"><span aria-hidden="true">F</span> Force</span><span id="variant"></span></div>
     <details class="DemoControls" data-component="DemoControls">
       <summary>Kịch bản demo</summary>
       <div class="controls">
@@ -17,13 +17,15 @@
         <select id="scenario">
           <option value="auto">Xác nhận tự động</option>
           <option value="closed">Đã đóng đăng ký</option>
-          <option value="review">Chờ BTC duyệt</option>
+          <option value="review" data-mode="bid">Chờ BTC duyệt</option>
           <option value="duplicate">Email đã đăng ký</option>
           <option value="repeat">Gửi lặp cùng yêu cầu</option>
           <option value="save-error">Lỗi lưu lần đầu</option>
-          <option value="mail-error">Lỗi gửi thư lần đầu</option>
+          <option value="mail-error" data-mode="bid">Lỗi gửi thư lần đầu</option>
+          <option value="timeout" data-mode="core">Mất phản hồi sau khi lưu</option>
         </select>
         <button class="ActionButton secondary" id="reset" type="button">Đặt lại phiên</button>
+        <a id="other-variant" href="?mode=bid">Mở bản BID</a>
       </div>
     </details>
   </header>
@@ -33,26 +35,35 @@
       <div class="event-info">
         <span class="StatusBadge" id="availability" data-tone="success">Đang nhận đăng ký</span>
         <dl>
-          <div><dt>Thời gian</dt><dd>09:00–11:00 · 12/12/2026</dd></div>
+          <div><dt>Thời gian</dt><dd>09:00–11:00 · 12/12/2026 (UTC+7)</dd></div>
           <div><dt>Địa điểm</dt><dd>Phòng A101 · Cơ sở mẫu</dd></div>
         </dl>
+        <strong class="compact-title">Nói để kết nối</strong>
         <small>Sự kiện và dữ liệu giả lập</small>
       </div>
     </aside>
     <div class="flow">
+      <p class="Notice" id="storage-note" data-tone="warning" role="status" hidden>Trình duyệt không lưu được phiên demo. Dữ liệu có thể mất khi tải lại trang.</p>
       <ol class="StepNav" data-component="StepNav" aria-label="Tiến trình đăng ký">
         <li aria-current="step">Chi tiết</li><li>Đăng ký</li><li>Kết quả</li>
       </ol>
       <section id="detail" class="ScreenPanel" data-component="ScreenPanel">
         <h1 tabindex="-1">Nói để kết nối</h1>
         <p class="lead">Workshop thực hành nói trước đám đông dành cho sinh viên. Bạn sẽ kể một câu chuyện ngắn, luyện trình bày theo nhóm và nhận góp ý từ các bạn cùng tham gia.</p>
-        <button type="button" class="ActionButton" id="start">Đăng ký tham gia <span aria-hidden="true">↗</span></button>
-        <p class="Notice" id="closed" data-tone="warning" hidden>Sự kiện đã đóng đăng ký.</p>
+        <div class="actions">
+          <button type="button" class="ActionButton" id="start">Đăng ký tham gia <span aria-hidden="true">↗</span></button>
+          <button type="button" class="ActionButton secondary" id="resume-result" hidden>Xem kết quả phiên này</button>
+        </div>
+        <p class="Notice" id="closed" data-tone="warning" hidden>Sự kiện đã đóng đăng ký. Xem kênh thông báo của ban tổ chức nếu cần hỗ trợ.</p>
       </section>
       <section id="register" class="ScreenPanel" data-component="ScreenPanel" hidden>
         <h1 tabindex="-1">Đăng ký tham gia</h1>
-        <p class="lead">Dùng dữ liệu mẫu để thử đăng ký workshop Nói để kết nối.</p>
+        <p class="lead">Chỉ nhập dữ liệu mẫu để thử đăng ký workshop Nói để kết nối.</p>
         <form class="RegistrationForm" data-component="RegistrationForm" id="form" novalidate>
+          <div class="Notice" id="form-errors" tabindex="-1" aria-labelledby="form-errors-title" data-tone="error" role="group" hidden>
+            <strong id="form-errors-title">Kiểm tra thông tin đăng ký</strong>
+            <ul id="form-error-links"></ul>
+          </div>
           <div class="FormField" data-component="FormField">
             <label for="name">Họ và tên <span>(bắt buộc)</span></label>
             <input id="name" name="name" autocomplete="off" required maxlength="100" aria-describedby="name-error" placeholder="Nguyễn An">
@@ -64,7 +75,7 @@
             <small id="email-error" class="field-error"></small>
           </div>
           <p class="Notice" id="form-note" role="alert" data-tone="error" hidden></p>
-          <div class="actions"><button class="ActionButton" type="submit">Gửi đăng ký</button><button class="ActionButton secondary" id="fill" type="button">Điền dữ liệu mẫu</button><button class="ActionButton text" id="back" type="button">Về chi tiết</button></div>
+          <div class="actions"><button class="ActionButton" id="submit" type="submit">Gửi đăng ký</button><button class="ActionButton secondary" id="fill" type="button">Điền dữ liệu mẫu</button><button class="ActionButton text" id="back" type="button">Về chi tiết</button></div>
         </form>
       </section>
       <section id="result" class="ScreenPanel" data-component="ScreenPanel" hidden>

@@ -95,10 +95,64 @@ input[aria-invalid="true"] { border-color: var(--error); }
 .InboxDialog::backdrop { background: #162d2680; }
 .InboxDialog article { margin-bottom: var(--space-md); padding: var(--space-md); border: 1px solid var(--line); border-radius: var(--control-radius); overflow-wrap: anywhere; }
 .InboxDialog article p { margin: 4px 0; }
+.identity { display: flex; flex-wrap: wrap; align-items: center; gap: var(--space-sm); }
+#variant { font-size: .875rem; font-weight: 600; }
+.compact-title { display: none; }
+input, select, .flow, .FormField { min-width: 0; }
+.Notice { overflow-wrap: anywhere; }
+#form-error-links { margin: 4px 0 0; padding-inline-start: 22px; }
+#form-error-links a { color: inherit; }
+
+body[data-mode="core"] {
+  --canvas: #f5f8ff;
+  --surface: #fff;
+  --ink: #182b3a;
+  --muted: #546474;
+  --line: #d7dfe7;
+  --control-border: #7c8b9b;
+  --primary: #245ce7;
+  --primary-hover: #1743b5;
+  --accent: #fff0e2;
+  --accent-strong: #f97316;
+  --success: #176446;
+  --success-bg: #e9f5ee;
+  --warning: #805600;
+  --warning-bg: #fff3d5;
+  --error: #b42335;
+  --error-bg: #fdecef;
+  --focus: var(--primary-hover);
+  --radius: 20px;
+  --control-radius: 6px;
+  --type: "Segoe UI", Arial, sans-serif;
+  line-height: 1.6;
+}
+[data-mode="core"] .top { --focus: var(--accent-strong); background: var(--ink); color: var(--surface); }
+[data-mode="core"] .controls { --focus: var(--primary-hover); color: var(--ink); }
+[data-mode="core"] .controls a { color: var(--primary-hover); }
+[data-mode="core"] .brand span { background: var(--accent); color: var(--ink); }
+[data-mode="core"] .layout { max-width: 1200px; }
+[data-mode="core"] .poster { background: var(--accent); color: var(--ink); }
+[data-mode="core"] .poster::before {
+  background: repeating-radial-gradient(ellipse, transparent 0 10px, #f9731640 11px 12px);
+}
+[data-mode="core"] .poster strong { font-size: clamp(2rem, 4.5vw, 3rem); }
+[data-mode="core"] .poster strong span { color: var(--accent-strong); }
+[data-mode="core"] .ScreenPanel h1 { font-size: 2rem; line-height: 1.2; }
+[data-mode="core"] .ActionButton:not(.secondary, .text) {
+  background: var(--primary);
+  border-color: var(--primary);
+  color: var(--surface);
+}
+[data-mode="core"] .ActionButton:not(.secondary, .text):hover { background: var(--primary-hover); filter: none; }
+[data-mode="core"] .ActionButton.secondary,
+[data-mode="core"] input:not([aria-invalid="true"]), [data-mode="core"] select { border-color: var(--control-border); }
+[data-mode="core"] .Notice { border-radius: 12px; }
 @media (max-width: 720px) {
   .layout { grid-template-columns: minmax(0, 1fr); padding: 0 16px; }
   .poster { min-height: 185px; padding: 18px; }
   .event-info { padding: var(--space-md); }
   .event-info dl { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   body[data-screen="register"] .poster, body[data-screen="result"] .poster { display: none; }
+  body:is([data-screen="register"], [data-screen="result"]) .compact-title { display: block; }
+  .controls { min-width: min(245px, calc(100vw - 48px)); }
 }

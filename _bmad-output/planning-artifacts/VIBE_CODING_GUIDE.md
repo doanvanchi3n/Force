@@ -3,6 +3,8 @@ title: Force — Bàn giao từng story cho coding agent
 status: draft
 created: 2026-11-27
 updated: 2026-11-27
+author: Huỳnh Thanh Thuận
+updated_at: 2026-11-27
 ---
 
 # Chuẩn bị Vibe Code — Force
@@ -56,6 +58,13 @@ Trước nhận: dependency cần thiết đã có; story có bề mặt UX, rul
 Sau hoàn thành: chạy lệnh từ manifest thực tế, đưa bằng chứng cho AC, kiểm tra quyền trực tiếp/đồng thời khi story có chúng, kiểm tra bàn phím/mobile theo surface; lỗi còn mở phải được ghi. Không đổi story thành done chỉ vì có ảnh/mockup. Báo cáo ngắn gồm phần đã đổi, cách kiểm tra, AC đạt/chưa đạt và rủi ro còn thật.
 
 Hiện chỉ có lệnh kiểm tra tài liệu `python3 scripts/check-doc-links.py` và công cụ BMAD có trong repo. Chưa tồn tại lệnh test/build cho ứng dụng core; không ghi `npm test` như lệnh đã kiểm chứng. Các bài test DB/API/browser chỉ trở thành bằng chứng sau khi ứng dụng/test harness được tạo và chạy.
+
+## Bàn giao lát cắt TV03
+
+1. Mở [[docs/knowledge/KNOWLEDGE_INDEX#Lát cắt TV03|Knowledge Index]], rồi chọn một trong US-01–03 tại [[USER_STORIES#Lát cắt TV03 — Bản thử đăng ký S01–S03]].
+2. Đối chiếu PT với AC, BR-D01 với rule core và phần còn mở trong [[TRACEABILITY_MATRIX#Bản thử TV03]]. Khi sửa UI mẫu, chạy đúng biến thể được mô tả tại [[prototype/README|Prototype đăng ký]].
+3. Khi xây ứng dụng, lấy validation, receipt, idempotency và quyền hồ sơ từ contract kiến trúc. Kiểm tra lỗi trước khi gửi, timeout sau khi ghi, replay đúng phạm vi và request khác payload ở API/DB.
+4. Ghi bằng chứng vào [[HANDOFF_CHECKS#Kiểm tra bổ sung của TV03]]. Giữ OQ-03/04/05/06 ở trạng thái hiện có đến khi nhóm chốt.
 
 ## Cập nhật hướng dẫn agent
 

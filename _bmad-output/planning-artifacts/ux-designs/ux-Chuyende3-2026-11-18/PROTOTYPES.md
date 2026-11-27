@@ -1,8 +1,15 @@
+---
+author: Huỳnh Thanh Thuận
+updated_at: 2026-11-27
+---
+
 # Prototypes — phạm vi và kịch bản thử
 
 **Bản nháp tương tác để kiểm chứng thiết kế, chưa phải ứng dụng vận hành.**
 Mở [index.html](mockups/index.html); các hành động thay đổi dữ liệu mẫu trong
 phiên trình duyệt. Có thể đặt lại để thử từ đầu. Không nhập thông tin thật.
+
+TV03 có thêm đường chạy S01–S03 trong [[prototype/README|prototype/dist]], dùng token của DESIGN và giữ phiên cùng tab. Kịch bản PT theo [[USER_STORIES#Lát cắt TV03 — Bản thử đăng ký S01–S03]]. Bảng dưới mô tả bộ mockup ở thư mục `mockups/`.
 
 ## Đối chiếu prototype hiện có với 11 story dự thảo — 27/11/2026
 
