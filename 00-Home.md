@@ -6,6 +6,7 @@ Client tiềm năng là VSC, còn cần xác minh hợp tác và nhu cầu.
 ## Bắt đầu
 
 - [Mục lục tài liệu](docs/index.md)
+- [Bộ bàn giao sản phẩm 27/11 — Knowledge, Rules, Stories, UX và Architecture nháp](docs/knowledge/KNOWLEDGE_INDEX.md)
 - [Quy trình và cách dùng BMAD](docs/bmad/README.md)
 - [Bối cảnh dự án cho các workflow](docs/project-context.md)
 - [Phân công và mốc tuần 2](docs/planning/Board%20-%20week%202.md)

@@ -5,6 +5,7 @@
 | Nội dung | Điểm bắt đầu |
 | --- | --- |
 | Bối cảnh và giới hạn bằng chứng | [Project context](project-context.md) |
+| Bộ bàn giao sản phẩm 27/11 | [Knowledge Index](knowledge/KNOWLEDGE_INDEX.md) — PRD, rules, 3 epic/11 story, traceability, UX và architecture nháp |
 | Quy trình BMAD | [Cài đặt, cấu hình và bước tiếp theo](bmad/README.md) |
 | Bộ skill thiết kế | [Phối hợp BMAD và UI UX Pro Max](skills/README.md) |
 | Nhóm và cách đóng góp | [Thành viên](team/Members.md), [Working Agreement](team/Working-Agreement.md) |

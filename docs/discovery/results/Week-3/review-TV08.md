@@ -193,7 +193,7 @@ Soi chiếu trực tiếp mã nguồn `prototype/dist/app.js` và `prototype/dis
   - Toàn bộ dữ liệu đăng ký và danh sách thư được lưu trên `Map()` trong bộ nhớ RAM (`records`, `submissions`).
   - Khi người dùng nhấn F5 hoặc tải lại trang ở màn hình Kết quả, **toàn bộ dữ liệu bị xóa sạch**, quay về màn hình Chi tiết ban đầu. Chưa tích hợp `sessionStorage` hay `localStorage`.
 - **Kiến trúc biến toàn cục (Global Scope Pollution):**
-  - Mã nguồn khai báo hàng loạt biến trạng thái ở phạm vi toàn cục ([app.js#L9-L15](prototype/dist/app.js#L9-L15)): `records`, `submissions`, `currentRecord`, `attemptKey`, `sequence`, `saveFailed`, `mailFailed`. Cách viết này khiến mã nguồn khó mở rộng, dễ xung đột và không thể viết Unit Test độc lập.
+  - Mã nguồn khai báo hàng loạt biến trạng thái ở phạm vi toàn cục ([app.js#L9-L15](../../../../prototype/dist/app.js#L9-L15)): `records`, `submissions`, `currentRecord`, `attemptKey`, `sequence`, `saveFailed`, `mailFailed`. Cách viết này khiến mã nguồn khó mở rộng, dễ xung đột và không thể viết Unit Test độc lập.
 
 ---
 

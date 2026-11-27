@@ -5,7 +5,7 @@ status: draft
 approval: pending
 proposal: V1 — hướng Campus Friendly + Bento Grid đã chọn; chi tiết thiết kế chờ xem xét
 created: 2026-11-18
-updated: 2026-11-18
+updated: 2026-11-27
 sources:
   - ../../research/user-voice-research-discovery-process-2026-11-16/research.md
   - ../../research/user-voice-research-discovery-process-2026-11-16/03-user-research.md
@@ -86,6 +86,8 @@ components:
 ## Brand & Style
 
 **Người dùng đã chọn Campus Friendly + Bento Grid, Blue / Orange / White**, cùng đầu ra Markdown + HTML có thể bấm thử. Mã màu, font, radius, kích thước và chi tiết nghiệp vụ dưới đây vẫn là đề xuất V1 chờ xem xét. Đây không phải nhận diện chính thức của CLB Kỹ năng VKU (VSC), phạm vi MVP đã duyệt hay stack ứng dụng.
+
+Bàn giao 27/11: [User Stories](../../USER_STORIES.md) nối mỗi tác vụ với surface; [PROTOTYPES](PROTOTYPES.md) ghi độ phủ và phần HTML lệch contract. Giữ nguyên token/hướng thị giác; MSSV, hàng chờ và hình QR trong code chưa tự trở thành quyết định thiết kế core.
 
 Hình thức thân thiện campus dùng nền/mặt trắng, chữ rõ và các khối bento có kích thước khác nhau để gom thông tin hữu ích. Sinh viên đọc sự kiện, lịch, địa điểm và cách tham gia theo thứ tự; BTC thấy các số đếm bento phía trên bảng thống nhất. Xanh dương đánh dấu hành động, cam làm điểm nhấn hình học và nền ấm. Không dùng logo VSC giả, ảnh người thật hay thông tin sự kiện chưa xác nhận.
 

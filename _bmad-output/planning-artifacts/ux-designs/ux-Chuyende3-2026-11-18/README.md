@@ -8,6 +8,8 @@ của VSC hoặc chốt phạm vi ứng dụng. Token và chi tiết màn hình 
 
 ## Mở và dùng
 
+Bộ bàn giao 27/11 có [story và AC](../../USER_STORIES.md), [ma trận truy vết](../../TRACEABILITY_MATRIX.md) và [bản đồ prototype theo 11 story](PROTOTYPES.md). HTML hiện có các biến thể MSSV/waitlist/hình QR lệch contract V1; đọc DX-01…08 trước khi dùng làm mẫu triển khai. Bản đồ nêu rõ auth, lưu trữ bền vững và quyền riêng chưa có.
+
 1. Mở [prototype tương tác](mockups/index.html) bằng trình duyệt. Có thể mở trực
    tiếp file HTML trên máy, không cần cài dependencies hoặc chạy backend.
 2. Thử luồng sinh viên và ban tổ chức theo [kịch bản prototype](PROTOTYPES.md).

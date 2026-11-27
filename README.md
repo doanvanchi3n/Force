@@ -75,8 +75,9 @@ Chuyende3/
 | `_bmad-output/planning-artifacts/` | Đầu ra lập kế hoạch của BMAD |
 | `_bmad-output/implementation-artifacts/` | Đầu ra triển khai của BMAD |
 
-Tài liệu nghiên cứu hiện có là đầu vào cho BMAD. Chưa tạo PRD, kiến trúc hoặc story
-như thể nhóm đã hoàn thành các bước đó. Xem [bảng chuyển thư mục](docs/bmad/migration-2026-11-16.md).
+Tài liệu nghiên cứu là đầu vào cho BMAD. Đã có [bộ bàn giao nháp ngày 27/11](docs/knowledge/KNOWLEDGE_INDEX.md)
+gồm PRD, rules, 3 epic/11 story, UX/prototype mapping và kiến trúc đề xuất;
+chưa xác nhận với VSC hoặc nghiệm thu ứng dụng core. Xem [bảng chuyển thư mục](docs/bmad/migration-2026-11-16.md).
 
 ## Dùng BMAD
 

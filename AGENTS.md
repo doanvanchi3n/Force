@@ -43,3 +43,16 @@ Communicate and write project documents in Vietnamese.
 - Keep `_bmad/render/` snapshots and both upstream repos under `.tools/` unchanged.
   Make BMAD customizations through its supported `_bmad/custom/` surfaces when needed.
 - After document/path changes, run `python3 scripts/check-doc-links.py`.
+
+## Bàn giao sản phẩm ngày 27/11/2026
+
+- Khi làm story thuộc `force-core-2026-11-27`, đọc `docs/knowledge/KNOWLEDGE_INDEX.md`
+  và `_bmad-output/planning-artifacts/VIBE_CODING_GUIDE.md`; chọn một story cùng
+  dependency, rule, AD và UX liên quan trước khi triển khai.
+- PRD, rules, epics, stories và architecture trong bộ này đang là bản nháp.
+  Ghi nhận quyết định thật trước khi coi scope/stack/nghiệp vụ đã được duyệt;
+  Next.js/TypeScript/PostgreSQL hiện là đề xuất theo yêu cầu người dùng.
+- Dùng `PROTOTYPES.md` trong UX workspace để đối chiếu DX-01…08 trước khi kế thừa
+  HTML; mã demo, MSSV và role switch không phải cơ chế quyền truy cập sản phẩm.
+- Giữ namespace US/REG của `06-Planning/BID.md` và `prototype/` riêng với bộ mới;
+  dùng `TRACEABILITY_MATRIX.md` để chuyển nghĩa, không tự đồng nhất mã giống nhau.

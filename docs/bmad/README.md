@@ -4,6 +4,8 @@
 Ngôn ngữ giao tiếp và tài liệu là tiếng Việt. Dự án đang ở phần nghiên cứu/discovery;
 các bài hiện có là đầu vào cho quy trình, chưa được coi là PRD hoặc kiến trúc đã duyệt.
 
+Ngày 27/11 đã soạn [bộ bàn giao nháp](../knowledge/KNOWLEDGE_INDEX.md) gồm PRD, business rules, 3 epic/11 story, traceability, UX/prototype mapping và architecture candidate. Đây là đầu ra để xem xét; chưa đổi trạng thái xác minh nghiên cứu hoặc nghiệm thu ứng dụng. Chọn tác vụ tiếp theo theo [Vibe Coding Guide](../../_bmad-output/planning-artifacts/VIBE_CODING_GUIDE.md).
+
 Dự án có thêm UI UX Pro Max làm nguồn tham khảo thiết kế. Xem
 [quy tắc phối hợp](../skills/README.md) về vai trò, ưu tiên tài liệu và cách cài cả hai bộ.
 

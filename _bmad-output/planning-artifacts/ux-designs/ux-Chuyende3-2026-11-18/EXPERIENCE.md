@@ -4,7 +4,7 @@ status: draft
 approval: pending
 proposal: V1 — kịch bản và quy tắc prototype để xem xét
 created: 2026-11-18
-updated: 2026-11-18
+updated: 2026-11-27
 sources:
   - ../../research/user-voice-research-discovery-process-2026-11-16/research.md
   - ../../research/user-voice-research-discovery-process-2026-11-16/03-user-research.md
@@ -21,6 +21,10 @@ scenario_origin: .memlog.md
 ## Foundation
 
 Web responsive tiếng Việt, ưu tiên đọc/đăng ký trên mobile và tác vụ BTC trên desktop. Người dùng đã chọn **Campus Friendly + Bento Grid, Blue / Orange / White** và đầu ra **Markdown + HTML có thể bấm thử**. [DESIGN.md](DESIGN.md) chứa token đề xuất; tài liệu này chứa hành vi. Chi tiết thị giác và nghiệp vụ V1 vẫn là **bản nháp, approval pending**; chưa chọn framework/backend hay xác nhận phạm vi sản phẩm/client.
+
+Cập nhật bàn giao 27/11: [PRD core](../../prds/prd-Chuyende3-2026-11-27/prd.md), [User Stories](../../USER_STORIES.md) và [Business Rules](../../BUSINESS_RULES.md) là đề xuất được truy vết từ nguồn, chưa phê duyệt nghiệp vụ. Next.js/TypeScript/PostgreSQL được đề xuất riêng tại [Architecture](../../architecture/architecture-Chuyende3-2026-11-27/ARCHITECTURE.md), chưa là stack được chốt. [PROTOTYPES](PROTOTYPES.md) ghi DX-01…08: HTML hiện đã có MSSV/waitlist/tra cứu theo MSSV/hình QR khác các quy tắc V1 dưới đây. Không coi hai phần đó đã đồng bộ hoặc an toàn để dùng thật.
+
+[Đối chiếu journey hiện hành](../../../../docs/knowledge/02-problems-and-journeys.md) nối năm giai đoạn TV09 mới với sáu giai đoạn trong research 16/11 và UJ-01…04. Không còn coi TV09 hiện tại là template trống; vẫn chưa có quan sát/kiểm chứng hành trình tại VSC.
 
 Bộ discovery 16/11/2026 hoàn tất tổng hợp nhưng có 14 claim chưa xác minh, 0 đã xác minh. Hai vai trò giữ nguyên: **Persona A — Người vận hành đăng ký và tham dự sự kiện** và **Persona B — Sinh viên đăng ký/tham gia sự kiện**. Lan và Minh bên dưới chỉ là **nhân vật hư cấu trong kịch bản thử**, không phải người nghiên cứu hoặc persona mới.
 
@@ -63,23 +67,23 @@ Không thông báo “đã gửi email”, “đã quét camera” hoặc “đ�
 
 Tên khớp DESIGN §Components; nội dung trong bảng là quy tắc của bản thử V1.
 
-| Component | Phạm vi | Quy tắc hành vi |
-| --- | --- | --- |
-| AppShell | S01–S07 | Điều hướng bằng link có nhãn; đổi route đưa focus tới h1; giữ ngữ cảnh sự kiện. |
-| EventPanel | S01–S04 | Gom dữ liệu sự kiện minh họa thành các khối bento theo thứ tự đọc; CTA được Button đảm nhiệm; không dùng cả panel làm link mơ hồ. |
-| Button | Mọi surface | Native button cho hành động, link cho điều hướng; Enter/Space hoạt động; chặn kích hoạt lặp khi cùng thao tác đang xử lý. |
-| FormField | S02/S04/S05/S06 và dialog | Label gắn input; helper/error được liên kết; giữ giá trị người nhập khi lỗi. Tên/email là hai trường đăng ký duy nhất. |
-| ErrorSummary | S02/S04 | Chỉ hiện sau submit lỗi; focus summary; từng mục dẫn đến trường liên quan; không xóa các trường hợp lệ. Dialog hoàn tác chỉ có một trường nên dùng lỗi ngay dưới trường và focus trường đó. |
-| StatusBadge | S03/S05/S06/S07 | Đọc trạng thái hiện tại từ cùng bản ghi demo; không bấm badge để đổi trạng thái. |
-| Notice | Mọi tác vụ có ngoại lệ | Nêu nguyên nhân cụ thể và bước tiếp; cập nhật vùng live cho kết quả, không tự cướp focus khi lọc. |
-| FilterBar | S05/S06 | Tìm kiếm/lọc dữ liệu demo tại chỗ; không sửa trạng thái; giữ truy vấn khi chuyển chọn người; có cách bỏ lọc. |
-| ParticipantList | S05/S06 | Hành động chọn người có nhãn; không tự check-in khi chọn; lọc không kết quả dùng EmptyState. |
-| StatCard | S05/S07 | Số đếm trong nhóm bento tính từ dữ liệu hiện tại; cập nhật cùng chuyển trạng thái, không cộng lượt click; không làm mất ngữ cảnh bảng. |
-| ConfirmationDialog | S03/S06 và hướng dẫn DemoToolbar | Chỉ một dialog; focus vào hành động an toàn hoặc trường lý do; trap focus; Escape/đóng không thay đổi; trả focus nút mở nếu còn tồn tại. Sau cập nhật thay nội dung trang, focus kết quả tương ứng. |
-| StatusTimeline | S03 | Hiển thị các mốc có trong bản ghi minh họa; phân biệt đăng ký và tham dự; không tự tạo bằng chứng chứng nhận. |
-| EmptyState | S05/S06/S07 | Phân biệt chưa có dữ liệu với không khớp lọc; cho thử lại/bỏ lọc/quay lại phù hợp; không tạo dữ liệu thay người dùng. Mã không tìm thấy ở S04 dùng lỗi form để giữ ngữ cảnh nhập. |
-| ReportTable | S07 | Đối chiếu tổng bản ghi = chờ check-in + đã tham dự + đã hủy. Tỷ lệ tham dự có mẫu số registered + checked, loại cancelled; đây là số demo, không phải tỷ lệ no-show. CSV gồm mã/tên/email/trạng thái của mọi bản ghi, kể cả đã hủy, khớp preview; không gửi cho BCN thật. |
-| DemoToolbar | S01–S08 | Nêu dữ liệu minh họa. Trong bản tương tác: đổi vai trò, bật/tắt mạng/quyền, chọn dữ liệu rỗng, mở hướng dẫn và reset. Reset trả 7 fixture; dữ liệu rỗng giúp thử empty/zero, không phải chức năng xóa dữ liệu sản phẩm. S08 dùng liên kết về bản tương tác. |
+| Component          | Phạm vi                          | Quy tắc hành vi                                                                                                                                                                                                                                                           |
+| ------------------ | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| AppShell           | S01–S07                          | Điều hướng bằng link có nhãn; đổi route đưa focus tới h1; giữ ngữ cảnh sự kiện.                                                                                                                                                                                           |
+| EventPanel         | S01–S04                          | Gom dữ liệu sự kiện minh họa thành các khối bento theo thứ tự đọc; CTA được Button đảm nhiệm; không dùng cả panel làm link mơ hồ.                                                                                                                                         |
+| Button             | Mọi surface                      | Native button cho hành động, link cho điều hướng; Enter/Space hoạt động; chặn kích hoạt lặp khi cùng thao tác đang xử lý.                                                                                                                                                 |
+| FormField          | S02/S04/S05/S06 và dialog        | Label gắn input; helper/error được liên kết; giữ giá trị người nhập khi lỗi. Tên/email là hai trường đăng ký duy nhất.                                                                                                                                                    |
+| ErrorSummary       | S02/S04                          | Chỉ hiện sau submit lỗi; focus summary; từng mục dẫn đến trường liên quan; không xóa các trường hợp lệ. Dialog hoàn tác chỉ có một trường nên dùng lỗi ngay dưới trường và focus trường đó.                                                                               |
+| StatusBadge        | S03/S05/S06/S07                  | Đọc trạng thái hiện tại từ cùng bản ghi demo; không bấm badge để đổi trạng thái.                                                                                                                                                                                          |
+| Notice             | Mọi tác vụ có ngoại lệ           | Nêu nguyên nhân cụ thể và bước tiếp; cập nhật vùng live cho kết quả, không tự cướp focus khi lọc.                                                                                                                                                                         |
+| FilterBar          | S05/S06                          | Tìm kiếm/lọc dữ liệu demo tại chỗ; không sửa trạng thái; giữ truy vấn khi chuyển chọn người; có cách bỏ lọc.                                                                                                                                                              |
+| ParticipantList    | S05/S06                          | Hành động chọn người có nhãn; không tự check-in khi chọn; lọc không kết quả dùng EmptyState.                                                                                                                                                                              |
+| StatCard           | S05/S07                          | Số đếm trong nhóm bento tính từ dữ liệu hiện tại; cập nhật cùng chuyển trạng thái, không cộng lượt click; không làm mất ngữ cảnh bảng.                                                                                                                                    |
+| ConfirmationDialog | S03/S06 và hướng dẫn DemoToolbar | Chỉ một dialog; focus vào hành động an toàn hoặc trường lý do; trap focus; Escape/đóng không thay đổi; trả focus nút mở nếu còn tồn tại. Sau cập nhật thay nội dung trang, focus kết quả tương ứng.                                                                       |
+| StatusTimeline     | S03                              | Hiển thị các mốc có trong bản ghi minh họa; phân biệt đăng ký và tham dự; không tự tạo bằng chứng chứng nhận.                                                                                                                                                             |
+| EmptyState         | S05/S06/S07                      | Phân biệt chưa có dữ liệu với không khớp lọc; cho thử lại/bỏ lọc/quay lại phù hợp; không tạo dữ liệu thay người dùng. Mã không tìm thấy ở S04 dùng lỗi form để giữ ngữ cảnh nhập.                                                                                         |
+| ReportTable        | S07                              | Đối chiếu tổng bản ghi = chờ check-in + đã tham dự + đã hủy. Tỷ lệ tham dự có mẫu số registered + checked, loại cancelled; đây là số demo, không phải tỷ lệ no-show. CSV gồm mã/tên/email/trạng thái của mọi bản ghi, kể cả đã hủy, khớp preview; không gửi cho BCN thật. |
+| DemoToolbar        | S01–S08                          | Nêu dữ liệu minh họa. Trong bản tương tác: đổi vai trò, bật/tắt mạng/quyền, chọn dữ liệu rỗng, mở hướng dẫn và reset. Reset trả 7 fixture; dữ liệu rỗng giúp thử empty/zero, không phải chức năng xóa dữ liệu sản phẩm. S08 dùng liên kết về bản tương tác.               |
 
 ## State Patterns
 

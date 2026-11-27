@@ -1,5 +1,7 @@
 # Force · Prototype đăng ký sự kiện
 
+Đây là bản thử đăng ký/xác nhận gắn với [BID v0.1](../06-Planning/BID.md), dùng namespace US/REG riêng. Bộ bàn giao core 27/11 và workspace UX đang dùng nằm tại [Knowledge Index](../docs/knowledge/KNOWLEDGE_INDEX.md); không lấy token hoặc mã story của demo này thay cho hai spine UX hiện hành.
+
 ## Chạy thử
 
 1. Mở `dist/index.html` trong trình duyệt. Giữ `styles.css` và `app.js` cùng thư mục. Prototype chạy trực tiếp, không cần cài thư viện hay khởi động máy chủ.
@@ -25,4 +27,4 @@
 - **Duyệt.** Mặc định xác nhận ngay sau khi lưu. Ở kịch bản cần duyệt, hồ sơ chờ duyệt chưa giữ chỗ và có biên nhận. Nút mô phỏng chuyển sang đã xác nhận và thêm thư xác nhận. Quy trình duyệt thật, từ chối và giữ chỗ chờ BTC chốt.
 - **Thư và dữ liệu.** Bản ghi và hộp thư nằm trong bộ nhớ của phiên trang. Demo mô phỏng lỗi lưu/gửi và thử lại, dùng dữ liệu mẫu và không gửi email ra ngoài. Chính sách gửi, thời gian giao thư, gửi lại và vé QR chờ xác nhận.
 
-Nguồn liên quan trong repo gồm [Client Brief](../02-Client/Client-Brief.md), [Assumptions](../03-Research/Assumptions.md), [TV03](../04-results/Week-2/TV03.md), [TV04](../04-results/Week-2/TV04.md), [TV05](../04-results/Week-2/TV05.md), [TV08](../04-results/Week-2/TV08.md) và [TV10](../04-results/Week-2/TV10.md). Xem [design-system.md](design-system.md) để đối chiếu tên component.
+Nguồn liên quan trong repo gồm [Client Brief](../docs/discovery/client/Client-Brief.md), [Assumptions](../docs/discovery/research/Assumptions.md), [TV03](../docs/discovery/results/Week-2/TV03.md), [TV04](../docs/discovery/results/Week-2/TV04.md), [TV05](../docs/discovery/results/Week-2/TV05.md), [TV08](../docs/discovery/results/Week-2/TV08.md) và [TV10](../docs/discovery/results/Week-2/TV10.md). Xem [design-system.md](design-system.md) để đối chiếu tên component.

@@ -6,6 +6,7 @@
 > - **Prototype và Design System chỉ là bản nháp phục vụ kiểm nghiệm giả thuyết:** Các màn hình HTML, CSS token và luồng trải nghiệm trong [ux-designs/](planning-artifacts/ux-designs/ux-Chuyende3-2026-11-18/README.md) và [design-references/](design-references/README.md) là công cụ minh họa để thảo luận, **không phải** cam kết về phạm vi sản phẩm (MVP), kiến trúc kỹ thuật hoặc stack công nghệ đã chốt của dự án Force.
 
 - [Planning artifacts](planning-artifacts/README.md): đầu ra phân tích, yêu cầu, UX và kiến trúc.
+- [Bộ bàn giao 27/11](../docs/knowledge/KNOWLEDGE_INDEX.md): PRD/rules, 3 epic/11 story, traceability, prototype mapping và architecture đề xuất; giữ trạng thái nháp, chưa xác nhận với VSC.
 - [Implementation artifacts](implementation-artifacts/README.md): đầu ra triển khai, theo dõi sprint và review.
 - [Design references](design-references/README.md): đề xuất thiết kế từ UI UX Pro Max để tham khảo.
 
