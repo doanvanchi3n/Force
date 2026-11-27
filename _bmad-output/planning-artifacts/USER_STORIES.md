@@ -5,6 +5,8 @@ approval: pending
 created: 2026-11-27
 updated: 2026-11-27
 namespace: force-core-2026-11-27
+author: Huỳnh Thanh Thuận
+updated_at: 2026-11-27
 ---
 
 # User Stories — Force
@@ -131,6 +133,46 @@ Là BTC có quyền xuất, tôi muốn xem trước và tải CSV cùng phạm 
 - **AC-11.1:** Cho trước snapshot/phạm vi preview đã chọn, khi tải, thì tệp UTF-8 có bốn cột core và toàn bộ hồ sơ sự kiện gồm đã hủy, cùng thứ tự/nội dung với preview. Dữ liệu đổi sau preview cần tải lại preview hoặc tải đúng snapshot cũ; không âm thầm trộn hai lần đọc.
 - **AC-11.2:** Cho trước giá trị có dấu nháy/phẩy/xuống dòng hoặc bắt đầu bằng ký tự công thức sau khoảng trắng, khi xuất, thì được quote/escape và vô hiệu thực thi công thức; preview dùng cùng bộ serialize, token riêng không có trong tệp.
 - **AC-11.3:** Cho trước danh sách rỗng, khi tải, thì tệp chỉ có tiêu đề và UI nêu 0 bản ghi; lỗi tạo/tải giữ preview và cho thử lại. Chưa có quyền export thì API từ chối dù nút bị gọi trực tiếp; không tự gửi tệp ra ngoài.
+
+## Lát cắt TV03 — Bản thử đăng ký S01–S03
+
+TV03 chọn lát cắt này từ lỗi mất phiên khi tải lại trong review tuần 3. Bối cảnh vai trò BTC và sinh viên ở [[docs/discovery/results/Week-2/TV03|Stakeholder Mapping]] vẫn là đầu vào nghiên cứu. Mã PT kiểm tra bản thử tương ứng với từng story core. Xem [[BUSINESS_RULES#Quy tắc phiên bản thử TV03]], [[prototype/README|Cách chạy prototype]], [[06-Planning/BID|BID]], [[docs/discovery/results/Week-3/review-TV08|Review tuần 3, ISSUE-12]] và [[TRACEABILITY_MATRIX#Bản thử TV03]].
+
+### US-01 · S01 — Biết sự kiện đang nhận đăng ký
+
+**Vai trò, hành động, giá trị.** Là sinh viên nhận link workshop, tôi muốn biết giờ, nơi tổ chức và sự kiện còn nhận đăng ký hay không để quyết định tham gia.
+
+**Happy Path.** Mở chi tiết, đọc lịch có múi giờ và địa điểm, rồi chọn **Đăng ký tham gia** để đi tới biểu mẫu.
+
+**Edge Cases.** Khi BTC đã đóng đăng ký trong kịch bản thử, sinh viên vẫn đọc được thông tin sự kiện và hướng hỗ trợ. Ở khung hẹp, giờ, địa điểm và nút vẫn đọc và dùng được.
+
+- **PT-01.1 (AC-01.1/3 · BR-01). Given** fixture đang nhận, **When** mở trang và chọn đăng ký, **Then** chi tiết hiển thị tên, nội dung, giờ UTC+7, địa điểm và đưa focus đến tiêu đề biểu mẫu.
+- **PT-01.2 (AC-01.2 · BR-01 · BR-D01). Given** kịch bản đã đóng, **When** mở chi tiết hoặc tải lại cùng tab, **Then** thông báo đóng kèm hướng hỗ trợ xuất hiện và luồng không mở biểu mẫu.
+
+### US-02 · S02 — Gửi một đăng ký hợp lệ và phục hồi lỗi
+
+**Vai trò, hành động, giá trị.** Là sinh viên gửi biểu mẫu từ điện thoại, tôi muốn biết trường cần sửa và gửi lại an toàn để có một hồ sơ đúng cho sự kiện.
+
+**Happy Path.** Điền tên và email mẫu. Sau khi gửi và ghi thành công, xem kết quả.
+
+**Edge Cases.** Tên thiếu hoặc ngoài giới hạn, email sai hoặc trùng, bấm gửi lặp, lỗi trước khi ghi và mất phản hồi sau khi ghi. Sau F5 người dùng tiếp tục với bản nháp cùng tab.
+
+- **PT-02.1 (AC-02.1 · BR-02/14). Given** tên sau chuẩn hóa dưới 2 hoặc trên 80 code point, hoặc email trống, sai định dạng hay quá 254 ký tự, **When** gửi, **Then** tóm tắt lỗi nhận focus, dẫn tới trường sai và giữ nội dung đã nhập.
+- **PT-02.2 (AC-02.2/3/4 · BR-02/03/04). Given** sự kiện nhận đăng ký và tên/email hợp lệ, **When** mô phỏng xử lý hai lần cùng lượt hoặc gửi lượt mới bằng email trùng sau trim/lowercase, **Then** cùng lượt chỉ có một hồ sơ và một mã. Lượt mới bị báo trùng và không lộ hồ sơ cũ.
+- **PT-02.3 (AC-02.5 · BR-11 · BR-D01). Given** kịch bản lỗi lưu lần đầu, **When** gửi rồi tải lại, **Then** biểu mẫu giữ bản nháp và báo chưa lưu. Gửi lại hợp lệ mới sinh mã.
+- **PT-02.4 (AC-02.4/5 · BR-03/11 · BR-D01). Given** kịch bản mất phản hồi sau khi lưu, **When** gửi rồi tải lại, **Then** thấy “Chưa xác định kết quả”. Thông tin khác lượt báo xung đột. Gửi đúng thông tin đối soát được cùng hồ sơ.
+
+### US-03 · S03 — Xem lại kết quả trong cùng tab
+
+**Vai trò, hành động, giá trị.** Là sinh viên đã gửi đăng ký, tôi muốn thấy mã và trạng thái sau khi tải lại trang để biết hồ sơ đã được ghi nhận.
+
+**Happy Path.** Sau khi lưu, xem trạng thái **Đã đăng ký** và mã tham chiếu. Tải lại cùng tab rồi kiểm tra mã cũ. Từ chi tiết có thể mở **Xem kết quả phiên này**.
+
+**Edge Cases.** Đổi kịch bản hoặc đặt lại phiên xóa dữ liệu của biến thể đang thử. Nếu trình duyệt chặn ghi phiên, giao diện báo rằng dữ liệu có thể mất khi tải lại.
+
+- **PT-03.1 (AC-03.1 · BR-04). Given** hồ sơ vừa được ghi thành công ở bản core, **When** xem S03, **Then** thấy sự kiện, mã tham chiếu và “Đã đăng ký”. Màn S03 chỉ hiển thị kết quả thao tác đã xảy ra.
+- **PT-03.2 (AC-03.3 · BR-05/14 · BR-D01). Given** S03 đã hiển thị và lưu phiên thành công, **When** tải lại cùng tab rồi mở lại kết quả từ S01, **Then** thấy đúng mã và trạng thái trước đó. Khi đặt lại phiên hoặc đổi kịch bản, kết quả cũ biến mất.
+- **PT-03.3 (BR-11/14 · BR-D01). Given** trình duyệt từ chối ghi phiên, **When** thử đăng ký, **Then** giao diện báo rõ khả năng mất dữ liệu khi tải lại.
 
 ## Điều kiện dùng story
 

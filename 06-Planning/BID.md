@@ -1,3 +1,8 @@
+---
+author: Huỳnh Thanh Thuận
+updated_at: 2026-11-27
+---
+
 # BID — Force
 
 Phạm vi đăng ký/xác nhận và namespace US/REG của BID được giữ riêng. Xem [ma trận chuyển nghĩa sang core đề xuất 27/11](../_bmad-output/planning-artifacts/TRACEABILITY_MATRIX.md) và [Knowledge Index](../docs/knowledge/KNOWLEDGE_INDEX.md); email/chờ duyệt/QR của BID chưa tự trở thành yêu cầu đã duyệt hoặc bị bác bỏ trong bộ mới.
@@ -70,7 +75,7 @@ Là sinh viên, tôi muốn nhận thư phản ánh đúng tình trạng đăng 
 | --- | --- | --- | --- |
 | Hợp tác, đầu mối và quy trình thực tế của VSC | Nhóm và đại diện VSC | Sự kiện, giờ và phòng là dữ liệu mẫu. | [Assumptions, Q05](../docs/discovery/research/Assumptions.md) · [TV10, A01/A06](../docs/discovery/results/Week-2/TV10.md) |
 | Nội dung công bố, điều kiện tham gia, hạn và sức chứa | BTC và nhóm | Ai có link đều xem được. Trạng thái mở/đóng chọn thủ công. Quy tắc sức chứa và giữ chỗ đồng thời chờ chốt. | [Client Brief, mục 5](../docs/discovery/client/Client-Brief.md) · [TV08, mục 5](../docs/discovery/results/Week-2/TV08.md) |
-| Định danh, chống trùng, chỉnh sửa, quyền truy cập và lưu dữ liệu | BTC và nhóm | Tên và email là bắt buộc. Chặn lượt gửi mới trùng email sau chuẩn hóa. Dữ liệu nằm trong bộ nhớ phiên trang. | [TV04, mục 6](../docs/discovery/results/Week-2/TV04.md) · [TV08, mục 5](../docs/discovery/results/Week-2/TV08.md) |
+| Định danh, chống trùng, chỉnh sửa, quyền truy cập và lưu dữ liệu | BTC và nhóm | Tên và email là bắt buộc. Chặn lượt gửi mới trùng email sau chuẩn hóa. Dữ liệu mẫu lưu trong phiên tab theo [[BUSINESS_RULES#Quy tắc phiên bản thử TV03|BR-D01]]. | [TV04, mục 6](../docs/discovery/results/Week-2/TV04.md) · [TV08, mục 5](../docs/discovery/results/Week-2/TV08.md) |
 | Duyệt và giữ chỗ, mốc gửi thư, gửi lại và lựa chọn QR | BTC và nhóm kỹ thuật | Mặc định xác nhận tự động. Nhánh chờ duyệt chưa giữ chỗ, gửi biên nhận rồi gửi xác nhận sau thao tác duyệt mô phỏng. Thư xem trong hộp thư mô phỏng, dùng mã dạng văn bản. | [TV03, mục 5](../docs/discovery/results/Week-2/TV03.md) · [TV10, A07–A10](../docs/discovery/results/Week-2/TV10.md) |
 | Ưu tiên, tiêu chí đánh giá và mẫu BID chính thức nếu có | Nhóm, hỏi giảng viên nếu cần rubric | Đối chiếu theo REG-01–REG-05. Rubric, ngưỡng thời gian gửi thư và chỉ tiêu vận hành chờ xác nhận. | [Assumptions, Q02](../docs/discovery/research/Assumptions.md) · [Board tuần 2](../docs/planning/Board%20-%20week%202.md) |
 
@@ -83,4 +88,6 @@ Là sinh viên, tôi muốn nhận thư phản ánh đúng tình trạng đăng 
 | US-03 | **Đăng ký / Kết quả** · lỗi lưu và thử lại, chờ duyệt, đã xác nhận |
 | US-04 | **Kết quả → Hộp thư mô phỏng** · biên nhận, thư xác nhận, lỗi gửi và gửi lại. Vé QR chờ xác nhận. |
 
-Mở [prototype cục bộ](../prototype/dist/index.html) bằng trình duyệt, chọn **Đăng ký tham gia → Điền dữ liệu mẫu → Gửi đăng ký → Mở hộp thư mô phỏng**. Dùng **Kịch bản demo** để thử các nhánh. [Hướng dẫn và bảng kiểm](../prototype/README.md) · [Design system](../prototype/design-system.md) · [Bản chạy riêng tư trên Sites](https://force-dang-ky-demo-261118.astralchime12.chatgpt.site)
+Mở [bản thử BID](../prototype/dist/index.html?mode=bid) bằng trình duyệt, chọn **Đăng ký tham gia → Điền dữ liệu mẫu → Gửi đăng ký → Mở hộp thư mô phỏng**. Dùng **Kịch bản demo** để thử các nhánh. [[prototype/README|Hướng dẫn và bảng kiểm]] · [Design system](../prototype/design-system.md) · [Bản chạy riêng tư trên Sites](https://force-dang-ky-demo-261118.astralchime12.chatgpt.site)
+
+Đối chiếu lát cắt core tại [[USER_STORIES#Lát cắt TV03 — Bản thử đăng ký S01–S03]] và [[TRACEABILITY_MATRIX#Bản thử TV03]].

@@ -4,6 +4,8 @@ status: draft
 approval: pending
 created: 2026-11-27
 updated: 2026-11-27
+author: Huỳnh Thanh Thuận
+updated_at: 2026-11-27
 ---
 
 # Business Rules — Force
@@ -42,6 +44,12 @@ Giới hạn tên/email/lý do là giả định làm việc của bản thử; 
 | checked/cancelled | Check-in lặp hoặc hủy lại | Giữ nguyên | Nêu rõ đã tham dự/đã hủy |
 
 Không có chuyển tự động từ `cancelled` trở lại `registered` trong core. `waitlist`, phê duyệt, đôn chỗ và đăng ký lại cần rule mới sau khi OQ-04/05 được đóng; không suy từ code demo thành quyết định.
+
+## Quy tắc phiên bản thử TV03
+
+**BR-D01 · Lưu phiên mẫu.** Với lát cắt S01–S03 ở [[USER_STORIES#Lát cắt TV03 — Bản thử đăng ký S01–S03]], lưu kịch bản, bước đang mở, bản nháp và kết quả mẫu trong `sessionStorage` của tab. Tải lại cùng tab khôi phục bản nháp hoặc kết quả. Đổi kịch bản hoặc đặt lại phiên thay dữ liệu của biến thể đang mở bằng phiên rỗng. Khi trình duyệt từ chối lưu, báo khả năng mất dữ liệu khi tải lại. Bản core và BID có khóa riêng. Theo BR-05/14, mã tham chiếu và phiên mẫu phục vụ đối chiếu trong demo. Quyền truy cập hồ sơ thật thuộc contract của core.
+
+Cách thử và phạm vi triển khai nằm tại [[prototype/README|Prototype đăng ký]] và [[TRACEABILITY_MATRIX#Bản thử TV03]].
 
 ## Thay đổi và phê duyệt
 

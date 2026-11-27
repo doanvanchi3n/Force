@@ -2,13 +2,24 @@
 title: Force — Kiểm tra bộ bàn giao ngày 27/11
 status: draft
 updated: 2026-11-27
+author: Huỳnh Thanh Thuận
+updated_at: 2026-11-27
 ---
 
 # Kiểm tra bộ bàn giao
 
 Phạm vi: tài liệu knowledge → PRD/rule → epic/story → UX/prototype mapping → architecture và AGENTS. Đây là kết quả kiểm tra **gói tài liệu**, không phải nghiệm thu ứng dụng hoặc xác minh nhu cầu VSC.
 
-## Kiểm tra đã chạy
+## Kiểm tra bổ sung của TV03
+
+- Chrome headless mở trực tiếp `prototype/dist/index.html` qua `file://`. Kiểm tra 9 tiêu chí PT của [[USER_STORIES#Lát cắt TV03 — Bản thử đăng ký S01–S03]] gồm mở/đóng đăng ký, focus tóm tắt và liên kết lỗi, giới hạn tên theo code point/email, chống trùng, gửi lặp, lỗi lưu, timeout, khôi phục và đặt lại phiên. Khung 360 px ở biểu mẫu không cuộn ngang. Kiểm tra email trùng có khoảng trắng không ngắt dòng và hai lượt timeout liên tiếp.
+- Ở bản BID, kiểm tra F5 giữ biên nhận chờ duyệt, thư xác nhận sau duyệt và trạng thái lỗi/gửi lại. Phiên BID và core dùng hai khóa riêng. Kiểm tra bằng dữ liệu mẫu.
+- Rà soát bản thay đổi đã dẫn đến sửa xác thực email sau chuẩn hóa, mô phỏng timeout ở mỗi lượt mới và dùng nhãn “Đang nhận đăng ký” ở bản core. Bổ sung đầu mối wikilink bàn giao và giữ tác giả gốc của review TV08.
+- `node --check prototype/dist/app.js`, `git diff --check` và script kiểm tra liên kết tài liệu đều đạt. Kiểm tra bổ sung xác nhận metadata của 12 trang Markdown, tiêu đề đích và 6 cặp wikilink hai chiều của story. Cách chạy và truy vết tại [[prototype/README|Prototype đăng ký]], [[TRACEABILITY_MATRIX#Bản thử TV03]] và [[VIBE_CODING_GUIDE#Bàn giao lát cắt TV03]].
+
+Bản thử đã kiểm tra trong một tab Chrome. Phần nghiệm thu hệ thống còn cần cấu hình và quyền phía máy chủ, DB, giao dịch/audit, replay có xác thực, lỗi mạng thật, cạnh tranh nhiều máy và kiểm tra đa trình duyệt.
+
+## Kiểm tra ở lần bàn giao tài liệu 27/11
 
 - `python3 scripts/check-doc-links.py`: không còn liên kết tệp hỏng trong phạm vi script. Đã sửa 7 đường dẫn cũ được phát hiện ở TV09/10 và review-TV08; đồng thời sửa đường dẫn cũ trong BID/prototype README.
 - `git diff --check`: không báo lỗi whitespace mới.
@@ -27,7 +38,7 @@ Phạm vi: tài liệu knowledge → PRD/rule → epic/story → UX/prototype ma
 
 Hai agent hỗ trợ không có filesystem tool; lần trích nguồn chuyển về parent, các nhận xét độc lập dựa trên contract/nội dung được cung cấp trực tiếp. Không gọi đây là audit độc lập toàn bộ repo.
 
-## Giới hạn còn nguyên
+## Giới hạn của lần bàn giao tài liệu
 
 Chưa tạo prototype core mới, chưa chỉnh logic HTML, chưa bấm thử lại toàn bộ UI hoặc chạy DB/API/browser test cho ứng dụng mới. Auth/persistence/audit/concurrency thật chưa có; DX-01…08 chưa được sửa trong mã. Câu hỏi OQ-01…10 còn mở; stack là đề xuất; các tài liệu vẫn `draft`/`approval pending`. Không commit, push hoặc thay trạng thái Issue/PR trong lần soạn này.
 

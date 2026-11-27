@@ -4,6 +4,8 @@ status: draft
 approval: pending
 created: 2026-11-27
 updated: 2026-11-27
+author: Huỳnh Thanh Thuận
+updated_at: 2026-11-27
 ---
 
 # Traceability Matrix — Force
@@ -26,6 +28,18 @@ Các dòng là liên kết của **yêu cầu đề xuất**, không chứng nh�
 | FR-10 | P-02, RD-A08; undo/lý do là giả định UX | BR-08/09/10/11 | E-02 / US-09 / AC-09.1…3 | UJ-03 / S06/dialog | AD-2/3/4 | Có dialog lý do; chưa có audit máy chủ |
 | FR-11 | W2-TV04 Q16…19, P-03, RD-A03; chưa baseline | BR-09/10/12 | E-03 / US-10 / AC-10.1…3 | UJ-04 / S07 | AD-1/4/7 | Có tổng hợp, bản mở rộng tính thêm waitlist |
 | FR-12 | W2-TV04 Q16…19; mẫu/cột xuất là giả định | BR-09/11/13/14 | E-03 / US-11 / AC-11.1…3 | UJ-04 / S07 | AD-4/6/7/8 | Có CSV 7 cột khác core 4 cột; chưa quyền thật |
+
+## Bản thử TV03
+
+[[prototype/README|Prototype đăng ký]] chạy S01–S03 bằng fixture. Đối chiếu mã PT trong [[USER_STORIES#Lát cắt TV03 — Bản thử đăng ký S01–S03]] và [[BUSINESS_RULES#Quy tắc phiên bản thử TV03]]. Các dòng phía trên mô tả workspace mockup V1.
+
+| Story / FR | Rule · kiểm tra bản thử | Giao diện / bằng chứng | Phần cần kiểm chứng ở core |
+| --- | --- | --- | --- |
+| US-01 / FR-01 | BR-01, BR-D01 · PT-01.1–2 | S01 mở, đóng, CTA và khôi phục kịch bản | Cấu hình và chặn request tại máy chủ, sự kiện không tồn tại |
+| US-02 / FR-02/03 | BR-02/03/04/11/14, BR-D01 · PT-02.1–4 | S02 lỗi trường, focus tóm tắt, chống trùng, gửi lặp, lỗi lưu và đối soát mô phỏng | Unique DB, request key và quyền replay, giao dịch, cạnh tranh nhiều thiết bị |
+| US-03 / FR-04 | BR-04/05/11/14, BR-D01 · PT-03.1–3 | S03 trạng thái, mã, F5 cùng tab và đặt lại phiên | Đọc trạng thái từ máy chủ, quyền riêng và khôi phục qua thiết bị khác |
+
+Nguồn của lát cắt gồm [[06-Planning/BID|BID]], [[docs/discovery/results/Week-2/TV03|Stakeholder Mapping]], [[docs/discovery/results/Week-3/review-TV08|ISSUE-12]] và [[VIBE_CODING_GUIDE#Bàn giao lát cắt TV03]]. Xem kết quả tại [[HANDOFF_CHECKS#Kiểm tra bổ sung của TV03]].
 
 ## Chất lượng và UX → nơi kiểm chứng
 

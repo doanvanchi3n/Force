@@ -3,6 +3,8 @@ title: Force — Chỉ mục tri thức và bàn giao sản phẩm
 status: draft
 created: 2026-11-27
 updated: 2026-11-27
+author: Huỳnh Thanh Thuận
+updated_at: 2026-11-27
 tags: [force, knowledge, handoff]
 ---
 
@@ -19,6 +21,10 @@ Bộ này nối nghiên cứu với yêu cầu, story, UX và kiến trúc cho w
 5. Xem UI của từng story: [Prototypes](../../_bmad-output/planning-artifacts/ux-designs/ux-Chuyende3-2026-11-18/PROTOTYPES.md), [Design](../../_bmad-output/planning-artifacts/ux-designs/ux-Chuyende3-2026-11-18/DESIGN.md), [Experience](../../_bmad-output/planning-artifacts/ux-designs/ux-Chuyende3-2026-11-18/EXPERIENCE.md).
 6. Chuẩn bị code: [Architecture](../../_bmad-output/planning-artifacts/architecture/architecture-Chuyende3-2026-11-27/ARCHITECTURE.md), [hướng dẫn giao việc](../../_bmad-output/planning-artifacts/VIBE_CODING_GUIDE.md), [AGENTS](../../AGENTS.md).
 7. Đối chiếu nguồn và phần còn thiếu: [Traceability](../../_bmad-output/planning-artifacts/TRACEABILITY_MATRIX.md), [quyết định còn mở](04-decisions-and-open-questions.md).
+
+## Lát cắt TV03
+
+Đọc theo thứ tự [[USER_STORIES#Lát cắt TV03 — Bản thử đăng ký S01–S03]], [[BUSINESS_RULES#Quy tắc phiên bản thử TV03]], [[prototype/README|Prototype đăng ký]], [[TRACEABILITY_MATRIX#Bản thử TV03]] và [[VIBE_CODING_GUIDE#Bàn giao lát cắt TV03]]. Căn cứ là [[docs/discovery/results/Week-2/TV03|Stakeholder Mapping]] và lỗi mất phiên ở [[docs/discovery/results/Week-3/review-TV08|ISSUE-12]]. [[06-Planning/BID|BID]] dẫn tới kịch bản email/chờ duyệt của bản thử trước.
 
 ## Chuyển bảng yêu cầu sang skill hiện có
 
