@@ -31,7 +31,7 @@ vẫn là client tiềm năng, chưa có xác nhận hợp tác/nhu cầu trong 
   check-in; 5/6 thích nhận vé/QR qua email. Kết quả về sở thích kênh nhận vé chưa
   cho biết nhu cầu tài khoản/lịch sử/tra cứu; không dùng để bác bỏ toàn bộ portal.
   **Tin cậy vừa cho số đếm, thấp cho suy rộng nhu cầu; unverified.** [6][11]
-- Cách làm hiện tại có điểm đáp ứng tốt: trung vị mức hài lòng của BTC là **4/5**. Cần so sánh
+- Cách làm hiện tại có điểm đáp ứng tốt: trung vị mức hài lòng của BTC là **4/5** (TV04 Q20, đo mức hài lòng quản lý người tham gia). Đây khác câu hỏi TV05 Q11 (đánh giá đăng ký và check-in, trung bình 3,3/5), nên không so sánh trực tiếp hai điểm. Cần so sánh
   cải tiến quy trình và công cụ sẵn có trước khi chọn xây mới. Các phương án
   Forms/Sheets, Luma và Eventbrite đã được TV02 nghiên cứu, nhưng thiếu ảnh/log
   và còn nhận định chưa nhất quán. **Tin cậy vừa–thấp tùy claim; unverified.** [3][5]
@@ -137,11 +137,11 @@ mốc tạm**; trường `pub_date` trong [sổ claim](claims.json) vẫn để 
 
 | Nhóm claim đã có mốc thu thập | Mốc tạm | Ngày kiểm tra lại do script tính |
 | --- | --- | --- |
-| Forms/Sheets | 11/11/2026 | **11/02/2027** |
-| Luma và Eventbrite | 12/11/2026 | 12/02/2027 |
-| Khảo sát BTC/sinh viên, điểm hài lòng | 12/11/2026 | 12/05/2028 |
+| Forms/Sheets | 11 November 2026 | **2 February 2027** |
+| Luma và Eventbrite | 12 November 2026 | 12 February 2027 |
+| Khảo sát BTC/sinh viên, điểm hài lòng | 12 November 2026 | 12 May 2028 |
 
-Mốc sớm nhất là **11/02/2027**. Đây là lịch làm mới, không chứng nhận dữ liệu còn
+Mốc sớm nhất là **2 February 2027**. Đây là lịch làm mới, không chứng nhận dữ liệu còn
 đúng tới ngày đó: các claim chưa kiểm chứng, client, giá/gói và quyết định sản
 phẩm cần kiểm tra **trước khi dùng để chốt**, không chờ tới mốc lịch. Claim không
 có ngày hoặc không thuộc cửa sổ trên chưa được tự động tính hạn.
